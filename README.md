@@ -1,5 +1,7 @@
 # Climate-Housing Exposure Index — Expanded Indicators 3.1
 
+https://kaifalu.github.io/CHEI-Dashboard/
+
 A guided explorer for Harris County, Texas. Select a place, choose precipitation conditions, and explore one layer or combine indicators in a common census-tract screen. The expanded checklist offers **17 indicator families**, covering the **26 original analytical layer keys** through supported periods and housing types.
 
 ## Open the dashboard
