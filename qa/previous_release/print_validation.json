@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "reports": {
+    "hotspot_brief.pdf": {
+      "pages": 1,
+      "page_size_points": [
+        612.0,
+        792.0
+      ]
+    },
+    "precinct_population_brief.pdf": {
+      "pages": 1,
+      "page_size_points": [
+        612.0,
+        792.0
+      ]
+    }
+  }
+}

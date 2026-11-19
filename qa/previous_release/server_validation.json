@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "health": {
+    "status": "ok",
+    "dashboard": true,
+    "dashboard_file": "index.html",
+    "single_family_points": 1093063,
+    "multi_family_points": 11572
+  },
+  "capped_point_response_count": 100,
+  "source_points_in_test_extent": 1104635,
+  "invalid_bounds_rejected": true,
+  "empty_viewport_handled": true,
+  "served_view_api_enabled": true,
+  "advanced_view_served": true
+}

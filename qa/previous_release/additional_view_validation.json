@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "input": "embedded HTML via set_content",
+  "scenario": "ZIP 77007 / CHEI / 2020\u20132050 comparison",
+  "selected_tract_count": 23,
+  "javascript_errors": []
+}

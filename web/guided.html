@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A guided, place-based Climate-Housing Exposure Index explorer for Harris County, Texas.">
+<title>Harris County · Climate-Housing Exposure Explorer</title>
+<!--INLINE_CSS-->
+<!--BOKEH_RESOURCES-->
+</head>
+<body>
+<a class="skip-link" href="#workflow">Skip to the guided explorer</a>
+<div class="site-shell">
+<header class="site-header">
+  <a class="brand" href="#" id="home-link" aria-label="Return to the guided explorer"><span class="brand-mark" aria-hidden="true">HC</span><span><small>HARRIS COUNTY, TEXAS</small><b>Climate + Housing Exposure</b></span></a>
+  <nav class="top-nav" aria-label="Main navigation">
+    <button class="nav-active" data-page="explorer">Guided explorer</button>
+    <button data-page="methods">Data &amp; methods</button>
+    <button data-page="help">How to use</button>
+    <button data-page="terms">Terms of use</button>
+  </nav>
+</header>
+<main>
+<section id="page-explorer" class="page-section">
+  <div class="intro" id="intro">
+    <div><p class="eyebrow">HARRIS COUNTY · A GUIDED EXPLORER</p><h1>See where climate and community conditions overlap.</h1><p>Choose a place, set the precipitation conditions, then select the indicators you want to explore together. We will guide you through one step at a time.</p></div>
+    <div class="intro-note"><span class="tiny-label">BEFORE YOU BEGIN</span><strong>Warming is not a year.</strong><span>+2.5°C describes a climate condition.<br> 2050 describes a projection year.</span></div>
+  </div>
+  <div class="workflow-wrap" id="workflow">
+    <nav class="steps" aria-label="Guided workflow progress">
+      <button data-step="0" class="current" aria-current="step"><span>1</span><b>Location</b></button>
+      <button data-step="1" disabled><span>2</span><b>Precipitation</b></button>
+      <button data-step="2" disabled><span>3</span><b>Indicators</b></button>
+      <button data-step="3" disabled><span>4</span><b>Periods &amp; rules</b></button>
+      <button data-step="4" disabled><span>5</span><b>Results</b></button>
+    </nav>
+    <div id="loading-message" class="loading-message" role="status">Loading the embedded dashboard data…</div>
+    <div class="setup-grid" id="setup-grid" hidden>
+      <section class="wizard-card" aria-label="Current selection step">
+        <div class="step-panel" data-panel="0">
+          <p class="eyebrow">STEP 1 OF 5</p><h2 tabindex="-1">Where would you like to look?</h2>
+          <p class="step-lead">Start with a familiar area. Your location will stay in focus throughout the workflow.</p>
+          <fieldset class="choice-field"><legend>Choose a location type</legend><div class="choice-grid four" id="location-options">
+            <button class="choice" data-location="county"><span class="choice-symbol">01</span><b>Whole county</b><span>Start with Harris County as a whole.</span></button>
+            <button class="choice" data-location="zip"><span class="choice-symbol">02</span><b>ZIP code</b><span>Find a familiar postal area.</span></button>
+            <button class="choice" data-location="precinct"><span class="choice-symbol">03</span><b>Commissioner precinct</b><span>Select Precinct 1, 2, 3, or 4.</span></button>
+            <button class="choice" data-location="tract"><span class="choice-symbol">04</span><b>Census tract</b><span>Use an exact 11-digit GEOID.</span></button>
+          </div></fieldset>
+          <div class="conditional-field" id="place-field" hidden>
+            <label for="place-input" id="place-label">Location</label>
+            <input id="place-input" list="place-options" autocomplete="off" inputmode="numeric" aria-describedby="place-help place-status">
+            <select id="precinct-input" aria-label="Commissioner precinct" hidden><option value="">Choose a precinct</option><option value="1">Precinct 1</option><option value="2">Precinct 2</option><option value="3">Precinct 3</option><option value="4">Precinct 4</option></select>
+            <datalist id="place-options"></datalist><p id="place-help" class="field-help"></p>
+          </div>
+          <div id="place-status" class="inline-status" role="status" aria-live="polite"></div>
+          <p class="quiet-note">ZIP and precinct boundaries locate an area; the source indicators retain their original census-tract, parcel, grid, or point geography.</p>
+        </div>
+        <div class="step-panel" data-panel="1" hidden>
+          <p class="eyebrow">STEP 2 OF 5</p><h2 tabindex="-1">Which precipitation conditions would you like to explore?</h2>
+          <p class="step-lead">Choose the extreme-precipitation data to use. You can combine it with social vulnerability, housing, and population in the next step.</p>
+          <div class="choice-grid two" id="climate-options">
+            <button class="choice" data-climate="threshold"><b>Rainfall at one warming level</b><span>Choose +1.5, +2.0, +2.5, or +3.0°C and view modeled extreme three-day rainfall totals in millimeters.</span></button>
+            <button class="choice" data-climate="compare"><b>Change between two warming levels</b><span>View the supplied percentage change in rainfall at +2.5°C relative to +1.5°C.</span></button>
+          </div>
+          <button class="choice skip-climate" data-climate="none"><b>Continue without a precipitation input</b><span>Use this if you only want to explore community or housing indicators, or a supplied index.</span></button>
+          <div class="conditional-field" id="warming-field" hidden><label for="warming-input">Global warming level</label><select id="warming-input" aria-describedby="warming-help"><option value="15">+1.5°C relative to 1850–1899</option><option value="20">+2.0°C relative to 1850–1899</option><option value="25">+2.5°C relative to 1850–1899</option><option value="30">+3.0°C relative to 1850–1899</option></select><p class="field-help" id="warming-help">For example, +2.5°C means a rise in global average temperature. It is not Harris County's temperature, a forecast for a specific storm, or the year 2050.</p></div>
+          <div id="climate-explanation" class="context-note" role="status">Choose a rainfall view, or continue without precipitation. Population and housing years are selected separately in Step 4.</div>
+        </div>
+        <div class="step-panel" data-panel="2" hidden>
+          <p class="eyebrow">STEP 3 OF 5</p><h2 tabindex="-1">What would you like to explore together?</h2>
+          <p class="step-lead" id="indicator-lead">Combine indicators to find where selected conditions occur in the same census tract, or explore a single layer in detail.</p>
+          <div class="view-mode-options" aria-label="Exploration mode"><button class="view-mode selected" data-view-mode="combine" aria-pressed="true"><b>Combine indicators</b><span>Choose two or more</span></button><button class="view-mode" data-view-mode="single" aria-pressed="false"><b>Explore one layer</b><span>Browse all supplied layers</span></button></div>
+          <div id="combined-indicator-options">
+            <div class="catalog-intro"><p><b>17 indicator families</b> cover the available layers through their periods, housing types, and geographic summaries.</p><label for="factor-search">Find an indicator</label><input id="factor-search" type="search" placeholder="Search CHEI, land use, housing, precipitation…" autocomplete="off"><div class="catalog-actions"><button type="button" class="text-button" id="expand-factor-groups">Show all indicators</button><button type="button" class="text-button" id="collapse-factor-groups">Collapse groups</button><button type="button" class="text-button" id="clear-factors">Clear selections</button></div></div>
+            <fieldset class="choice-field"><legend>Select the indicators to combine</legend><div id="factor-catalog"></div></fieldset>
+            <div id="selected-factor-chips" class="selected-factor-chips" aria-label="Selected indicators"></div>
+            <div class="selection-status" id="factor-selection-status" role="status" aria-live="polite"></div>
+            <button class="text-button" id="select-core-factors">Select the four main indicators</button>
+            <p class="field-help">Combinations use census tracts as a common geography. Numeric indicators use cutoffs; land use and compound hotspots use the named categories you select. Each card explains how its original layer is represented.</p>
+          </div>
+          <div id="single-indicator-options" hidden>
+          <label for="indicator-input">Indicator or planning question</label><select id="indicator-input"></select>
+          <div id="indicator-explanation" class="indicator-explanation" aria-live="polite"></div>
+          <div id="overlap-options" class="conditional-field" hidden>
+            <p class="tiny-label">TWO-FACTOR SCREENING</p><div class="form-pair"><div><label for="factor-a">First factor</label><select id="factor-a"></select></div><div><label for="factor-b">Second factor</label><select id="factor-b"></select></div></div>
+            <label for="overlap-percentile">What counts as high?</label><select id="overlap-percentile"><option value="60">At or above the county 60th percentile</option><option value="65">At or above the county 65th percentile</option><option value="70">At or above the county 70th percentile</option><option value="75">At or above the county 75th percentile</option><option value="80" selected>At or above the county 80th percentile</option><option value="85">At or above the county 85th percentile</option><option value="90">At or above the county 90th percentile</option><option value="95">At or above the county 95th percentile</option></select>
+            <p class="field-help">This exploratory screen does not change the fixed, three-factor compound-hotspot layer.</p>
+          </div>
+          </div>
+        </div>
+        <div class="step-panel" data-panel="3" hidden>
+          <p class="eyebrow">STEP 4 OF 5</p><h2 tabindex="-1" id="period-heading">Choose periods and the overlap rule</h2>
+          <p class="step-lead" id="period-lead">Each indicator keeps its own reference period. Then decide which combinations you want the map to identify.</p>
+          <div id="combined-period-options" hidden>
+            <div id="factor-periods" class="factor-periods"></div>
+            <div class="rule-box"><h3>What should count as a match?</h3>
+              <label for="combine-rule">Find census tracts where…</label><select id="combine-rule"><option value="all">ALL selected conditions are met</option><option value="any">ANY selected condition is met</option><option value="atleast">AT LEAST a chosen number of conditions are met</option></select>
+              <div id="minimum-count-field" hidden><label for="minimum-count">Minimum number of conditions to meet</label><select id="minimum-count"></select></div>
+              <div id="numeric-rule-field"><label for="combined-percentile">Define “high” for numeric indicators</label><select id="combined-percentile"><option value="60">At or above the countywide 60th percentile</option><option value="65">At or above the countywide 65th percentile</option><option value="70">At or above the countywide 70th percentile</option><option value="75">At or above the countywide 75th percentile</option><option value="80" selected>At or above the countywide 80th percentile</option><option value="85">At or above the countywide 85th percentile</option><option value="90">At or above the countywide 90th percentile</option><option value="95">At or above the countywide 95th percentile</option></select>
+              <p class="field-help">At the 80th percentile, “high” means roughly the highest fifth of county tracts for that indicator. Ties can include more tracts. The same county cutoffs apply whichever location you select.</p></div>
+            </div>
+            <div id="cutoff-preview" class="cutoff-preview"></div>
+          </div>
+          <div id="single-period-options">
+          <label for="period-input" id="period-label">Reference period</label><select id="period-input"></select>
+          <div id="display-options" class="conditional-field" hidden><label for="display-input">Housing-stock type</label><select id="display-input"><option value="combined">Single-family + multi-family</option><option value="single">Single-family</option><option value="multi">Multi-family</option></select></div>
+          </div>
+          <div id="period-explanation" class="context-note" aria-live="polite"></div>
+          <div id="review-selection" class="review-selection"></div>
+        </div>
+        <div class="wizard-error" id="wizard-error" role="alert" hidden></div>
+        <div class="wizard-actions"><button class="button secondary" id="back-button" disabled>← Back</button><span id="step-count">Step 1 of 5</span><button class="button primary" id="next-button" disabled>Next: Precipitation →</button></div>
+      </section>
+      <aside class="path-card"><p class="eyebrow">YOUR SELECTIONS</p><h3>A clear path to your results</h3><div id="path-summary"></div><div class="path-tip"><b>You can change your mind.</b><p>Use Back or a completed step above. Your other valid choices will be kept.</p></div><a href="#help" class="text-link" data-open-help>New to the dashboard? Read the quick guide →</a></aside>
+    </div>
+    <section id="results" hidden aria-labelledby="results-title">
+      <header class="results-heading"><div><p class="eyebrow">STEP 5 OF 5 · YOUR RESULTS</p><h2 id="results-title" tabindex="-1"></h2><p id="results-subtitle"></p></div><div class="result-buttons"><button id="edit-selections" class="button secondary">← Edit selections</button><button id="report-button" class="button primary">Print screening brief</button></div></header>
+      <div id="result-context" class="result-context"></div>
+      <div id="result-caveat" class="context-note compact"></div>
+      <div id="summary-metrics" class="summary-metrics" aria-live="polite"></div>
+      <section id="combined-input-summary" class="combined-input-summary" hidden aria-label="Selected indicators and matching conditions"></section>
+      <div id="factor-map-tabs" class="factor-map-tabs" aria-label="Choose which input or combination to show on the map" hidden></div>
+      <div class="results-map-grid">
+        <section class="map-card"><div class="map-head"><div><h3 id="map-title">Map</h3><p id="map-subtitle"></p></div><button class="button subtle" id="fit-location">Fit selected place</button></div><div class="map-canvas-wrap"><div id="map-host"><!--MAP_ROOT--></div><p id="street-attribution" class="street-attribution" hidden>© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a></p></div><p id="map-status" class="map-status"></p>
+        <details class="map-display"><summary>Map display options</summary><div class="display-controls"><label for="basemap-style">Background map <select id="basemap-style"><option value="embedded">Embedded boundaries · works offline</option><option value="streets">OpenStreetMap streets · online</option></select></label><label><input type="checkbox" id="show-zips"> Show all ZIP boundaries</label><label><input type="checkbox" id="show-precincts"> Show all precinct boundaries</label><label>Layer opacity <input id="map-opacity" type="range" min="25" max="100" value="82" aria-label="Layer opacity"></label></div><p class="field-help" id="basemap-help">The embedded background uses the supplied geographic boundaries.</p></details></section>
+        <aside class="legend-card"><p class="eyebrow">READ THE MAP</p><h3>Click a class to locate matches</h3><p class="field-help" id="legend-scope"></p><div id="legend-content"></div><div id="legend-selection" aria-live="polite"></div></aside>
+      </div>
+      <div class="analysis-grid"><section class="analysis-card"><p class="eyebrow">THE SELECTED PLACE</p><h3 id="chart-title"></h3><div id="main-chart" class="chart"></div><p id="chart-note" class="field-help"></p></section><section class="analysis-card findings-card"><p class="eyebrow">WHAT DOES THIS MEAN?</p><h3>A starting point for interpretation</h3><div id="findings"></div><div class="next-use"><h4>Potential application</h4><p id="planning-use"></p></div></section></div>
+      <section id="combined-table-section" class="analysis-card combined-table-section" hidden><div class="table-heading"><div><p class="eyebrow">CHECK THE UNDERLYING VALUES</p><h3>Selected indicators, side by side</h3></div><button class="button secondary" id="download-screen">Download screening CSV</button></div><div class="table-controls"><label for="result-table-filter">Show tracts</label><select id="result-table-filter"><option value="matched">Matching the overlap rule</option><option value="all">All in the selected place</option></select><p class="field-help" id="result-table-status"></p></div><div id="combined-results-table" class="screen-table-wrap" tabindex="0" role="region" aria-label="Selected tract values"></div><p class="field-help">“High” uses the original unrounded value. Display values are rounded; hover over a cutoff or value for its full precision. The CSV includes every selected tract, exact values, numeric cutoffs or chosen categories, units, periods, and match flags.</p></section>
+      <section id="tract-inspection" class="inspection-card" hidden><div class="inspection-head"><div><p class="eyebrow">MAP INSPECTION · DOES NOT CHANGE YOUR SELECTED PLACE</p><h3 id="inspection-title"></h3></div><button id="close-inspection" class="button subtle">Close</button></div><div id="inspection-content"></div><button id="use-inspected-tract" class="button secondary">Use this tract as my location</button></section>
+      <details class="reference-card" id="layer-reference"><summary>Layer reference, interpretation, and limitations</summary><div id="reference-content"></div></details>
+      <div class="results-bottom"><p>Results support screening and exploration, not a site-specific flood, loss, or engineering assessment.</p><button id="restart-button" class="button secondary">Start a new exploration</button></div>
+      <p id="report-status" class="inline-status" role="status"></p>
+    </section>
+  </div>
+</section>
+<section class="page-section information-page" id="page-methods" hidden><!--METHODS--></section>
+<section class="page-section information-page" id="page-terms" hidden><!--TERMS--></section>
+<section class="page-section information-page" id="page-help" hidden>
+  <div class="content-page"><p class="eyebrow">START HERE</p><h1>From your question to a useful result</h1><p class="step-lead">Explore one indicator or combine several in the same place. No GIS experience or software installation is required. Each step opens only the choices you need now.</p>
+  <div class="help-grid">
+    <section><span class="help-number">1 · LOCATION</span><h3>Select a place</h3><p>Choose the whole county, a five-digit ZIP code, Commissioner Precinct 1–4, or an 11-digit census-tract GEOID. ZIP 77007 is one example. Your chosen place stays in focus while you explore the results.</p></section>
+    <section><span class="help-number">2 · PRECIPITATION</span><h3>Choose a rainfall view</h3><p>Select <b>Rainfall at one warming level</b> and choose +1.5, +2.0, +2.5, or +3.0°C, or select the supplied <b>Change between two warming levels</b>. Use <b>Continue without a precipitation input</b> for a community-only combination or a supplied index.</p></section>
+    <section><span class="help-number">3 · INDICATORS</span><h3>Check what you want to combine</h3><p><b>Combine indicators</b> offers 17 families across five groups. Start with the main indicators, open a group, search by name, or use <b>Show all indicators</b>. Add CHEI, hotspots, housing stock, density, land use, and other inputs. Choose at least two; the dashboard explains when two representations would count the same source measure twice. Use <b>Explore one layer</b> to see a layer in its original display geography.</p></section>
+    <section><span class="help-number">4 · PERIODS &amp; RULES</span><h3>Set periods and define a match</h3><p>Choose periods for population, households, employment, CHEI, and land use, and a housing type for grid or housing-location summaries. For numeric inputs, define “high” with a countywide percentile. For land use and fixed hotspots, check the named categories you want. Then choose whether <b>ALL</b>, <b>ANY</b>, or <b>AT LEAST</b> a chosen number of conditions must be met.</p></section>
+    <section><span class="help-number">5 · RESULTS</span><h3>Read the overlap and its inputs</h3><p>The map zooms to your place. In <b>Combined overlap</b>, darker fill means more selected conditions are met; a gold outline identifies tracts meeting your rule. Use the individual indicator buttons above the map to inspect one input while keeping the whole combination selected.</p></section>
+    <section><span class="help-number">CHECK THE EVIDENCE</span><h3>Inspect, export, or print</h3><p>Click a tract to see all its selected values. Review the table below the charts, choose <b>All in the selected place</b> if you want to see nonmatches, or select <b>Download screening CSV</b>. <b>Print screening brief</b> opens a compact report of the current location and rule.</p></section>
+  </div>
+  <div class="context-note"><b>+2.5°C is not the year 2050.</b> It is a rise in global average temperature relative to 1850–1899, not Harris County's temperature. The precipitation data describe modeled extreme three-day rainfall in 20-year climate windows. The separate 2020/2050 fields describe community and housing reference periods. Combining them does not assign a date to a warming level or predict a specific storm.</div>
+  <h2>Try four indicators together</h2>
+  <div class="help-grid">
+    <section><h3>A practical starting path</h3><p>Select <b>ZIP 77007 → Rainfall at one warming level → +2.5°C → Combine indicators</b>. Click <b>Select the four main indicators</b> to include precipitation, SVI, housing-unit growth, and population. In Step 4 choose <b>2050 population</b>, keep the <b>80th percentile</b>, and choose <b>ALL selected conditions are met</b>. Then select <b>Show my results</b>.</p></section>
+    <section><h3>Ask a broader question</h3><p>Read how many tracts meet all four conditions. If none do, the combination may simply be restrictive. Return to Step 4 and choose <b>AT LEAST 3 of 4</b> to ask where several conditions coincide. Compare the inputs and the changed results. These are demonstration settings, not a recommended threshold for investment or policy.</p></section>
+  </div>
+  <h2>Understand what the map is showing</h2>
+  <div class="help-grid">
+    <section><h3>A count and a matching rule answer different questions</h3><p><b>3 of 4 conditions met</b> means three selected numeric cutoffs or category choices are satisfied in that tract. It matches an <b>AT LEAST 3</b> rule, but does not match an <b>ALL 4</b> rule. Changing the rule changes the matching tracts; changing the percentile can also change which individual values count as high.</p></section>
+    <section><h3>Each input has its own units and period</h3><p>SVI retains its 2020 reference. Housing-unit growth retains its projected 2020–2050 change from supplied changing-parcel data; it is different from household growth. A precipitation input retains its warming condition. Population, households, and employment use the period you selected for each.</p></section>
+  </div>
+  <h2>Questions and troubleshooting</h2>
+  <details><summary>What does “high” mean?</summary><p>Each numeric indicator is compared with its own countywide percentile cutoff, shown in its own units. Category indicators use the named choices you check in Step 4 instead. At the 80th percentile, high generally means the upper fifth of valid county values. Values equal to the cutoff count as high, so ties can include more tracts. Calculations use unrounded values; the interface rounds for readability. The same county cutoffs apply in every ZIP or precinct. A high population or more growth is not automatically a harmful condition, and this count is not a new CHEI or flood probability.</p></details>
+  <details><summary>Why is there no single year for my combination?</summary><p>The source indicators have different references. The checklist combines their spatial patterns without creating new projections or treating them as a synchronized future scenario. There is no supplied future SVI, and a warming level is not assigned a calendar year. Step 4 shows the reference of every checked factor.</p></details>
+  <details><summary>What if a tract has missing values?</summary><p>A tract must have data for every checked indicator to enter the combined screen. Incomplete tracts are counted separately and excluded from ALL, ANY, and AT LEAST rules. The reported matching percentage uses complete-data tracts as its denominator. Individual input cards use that indicator's own available values, so their denominators can differ. Missing data are not treated as zero or low values.</p></details>
+  <details><summary>What does it mean when no tract matches?</summary><p>It means no evaluated tract meets that particular rule and set of cutoffs; it does not mean no climate exposure or vulnerability exists. Inspect individual input maps and choose <b>All in the selected place</b> in the table to see the underlying values. Change a rule or percentile only if the resulting question is useful. If no tract has complete selected data, a matching percentage cannot be calculated.</p></details>
+  <details><summary>Which layers can I combine?</summary><p>The 17 indicator families represent all 26 original analytical layer keys through period, housing-type, category, and geographic-summary choices. Combinations use census tracts. Model points become within-tract means, housing-grid cells become intersecting-cell medians, housing locations use complete tract record counts, and land use uses the dominant named category among changing parcels. Original maps remain in Explore one layer. A combination needs at least two distinct measures. Exact duplicate source fields are rejected; related indicators remain selectable with an explanation.</p></details>
+  <details><summary>Why do some combinations have little data?</summary><p>Model-point summaries have values in 197 of 1,115 tracts, housing-grid summaries in 1,109, and changed-parcel land-use summaries in 787. No nearby value is substituted for a missing point or parcel summary. Combining many inputs can reduce the number of complete-data tracts. Step 4 shows each input’s coverage before you run the screen.</p></details>
+  <details><summary>How do land-use and hotspot choices work?</summary><p>Check one or more named categories in Step 4. For example, selecting projected Residential land use means a tract’s dominant category among the supplied changing parcels must be Residential. It does not mean the entire tract is residential. A hotspot choice matches its original fixed category. Categories are never treated as numeric high-to-low scores.</p></details>
+  <details><summary>How do individual indicator buttons affect my results?</summary><p>Buttons above the map switch between <b>Combined overlap</b> and a view of whether one checked input meets its numeric or category condition. They do not remove indicators, change the matching rule, or alter the summary, table export, or brief. The gold match outlines continue to represent the complete combination. To change the calculation, edit the selections in the guided steps.</p></details>
+  <details><summary>What do ZIP and precinct summaries mean?</summary><p>They use whole source features that intersect the selected boundary, including boundary touches. Tract medians give each tract equal weight. These are not ZIP/precinct totals, population-weighted averages, or official area indices. A tract may extend beyond your selected boundary or appear in more than one area's screen.</p></details>
+  <details><summary>What happens when I click the legend or a tract?</summary><p>A legend class highlights matching features within your selected place; use the legend's zoom or clear controls to inspect and reset it. A tract click opens its values without replacing the selected ZIP or precinct. Choose <b>Use this tract as my location</b> only when you intend to change the focus. A map highlight does not change the geographic scope of the summary or exported results.</p></details>
+  <details><summary>Does the precipitation choice change CHEI or fixed hotspots?</summary><p>No. In both modes, supplied CHEI retains its original climate assumptions. Fixed compound hotspots always use +2.5°C precipitation, 2020–2050 household growth, and 2020 SVI with the source thresholds. Their explanation identifies the actual inputs. Use <b>Combine indicators</b> for your own precipitation condition, factors, and cutoffs; it remains a separate exploratory classification.</p></details>
+  <details><summary>What is included in the CSV?</summary><p><b>Download screening CSV</b> includes every tract in the selected geographic screen, even when the on-screen table is showing only matches. It records exact factor values, units, reference periods, numeric cutoffs or selected category names, condition flags, completeness, and whether the rule is met. Preserve the location, settings, and source limitations when reusing it. The exported screen is not a new authoritative dataset.</p></details>
+  <details><summary>How do I print or save the brief?</summary><p>Select <b>Print screening brief</b>, allow the new report tab, and choose <b>Print / Save as PDF</b>. Use Letter or A4, default scaling, and turn off browser headers/footers; check the print preview before saving. The brief describes the full selected place and combination regardless of the input tab or highlighted legend class. Its simplified boundary is an orientation map, not a separate thematic risk map. A brief with many indicators can span several pages.</p></details>
+  <details><summary>Why is Next unavailable, or an option missing?</summary><p>Complete the current selection: ZIP codes require five digits, tract GEOIDs require eleven, and a combination requires at least two indicators. Precipitation is unavailable in the checklist until a rainfall choice is made in Step 2. Individual-layer periods and representations appear only when supported by the supplied data. Two choices that use the identical underlying measure cannot be counted twice. Category indicators require at least one category choice in Step 4.</p></details>
+  <details><summary>Can I work offline, and why might the basemap be blank?</summary><p>The HTML embeds the analytical data, application code, maps, charts, and export/report functions. It works locally without Python. The default background uses embedded boundaries and makes no tile requests, so no API key is needed. On an HTTP/HTTPS-hosted page, <b>Map display options → Background map</b> optionally adds OpenStreetMap streets. Street tiles need internet access; switch back to Embedded boundaries if they are unavailable. No online street tiles are bundled for offline use. Static single-family housing points are sampled and the optional server also caps displayed points; use the full-count grid or supplied tract housing layers for other housing summaries.</p></details>
+  <h2>Potential applications</h2><p>Use combinations to prepare community adaptation discussions, explore housing and infrastructure needs, compare growth patterns, or teach climate and social-data interpretation. Results identify where to investigate further. Add local drainage, infrastructure, housing, and community evidence before making a specific decision.</p>
+  <p class="quiet-note">For the earlier all-controls interface and Quick Decision shortcuts, use the <a href="advanced_explorer.html" target="_blank" rel="noopener">Advanced explorer</a> included in the ZIP package. The guided HTML does not require that extra file.</p>
+  <button class="button primary" data-page="explorer">Return to the guided explorer →</button>
+  </div>
+</section>
+</main>
+<footer class="site-footer"><div><b>Climate-Housing Exposure Index Dashboard</b><span>Harris County, Texas · Guided workflow</span></div><p>Research, education, and planning exploration.<br>Modeled values require local verification.</p><div class="footer-contact"><span>QUESTIONS OR FEEDBACK</span><a href="mailto:Kaifa.Lu@ttu.edu">Kaifa Lu · CECREH</a><a href="mailto:Kaifa.Lu@ttu.edu">Kaifa.Lu@ttu.edu</a></div></footer>
+</div>
+<noscript><div class="no-script">JavaScript is required to use the embedded map and guided workflow. Enable JavaScript in your browser.</div></noscript>
+<!--BOOT_DATA-->
+<!--BOKEH_SCRIPT-->
+<!--GUIDED_SCRIPT-->
+</body>
+</html>

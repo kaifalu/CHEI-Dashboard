@@ -1,0 +1,2231 @@
+{
+  "release": "Expanded indicators 3.1",
+  "status": "passed",
+  "check_count": 530,
+  "checks": [
+    {
+      "name": "Real native UI boots with documented model bridge"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Generated page carries the expanded release identity"
+    },
+    {
+      "name": "Generated page declares 17 families covering 26 original layer keys"
+    },
+    {
+      "name": "Generated metadata agrees with the prepared expanded-field definitions"
+    },
+    {
+      "name": "Generated bridge exposes the optional basemap renderer"
+    },
+    {
+      "name": "Hosted native workflow starts with no attached tile renderer"
+    },
+    {
+      "name": "Hosted streets are available only as an unselected optional background"
+    },
+    {
+      "name": "Location required before advancing"
+    },
+    {
+      "name": "Invalid ZIP rejected"
+    },
+    {
+      "name": "Known ZIP accepted"
+    },
+    {
+      "name": "Climate step is precipitation-specific"
+    },
+    {
+      "name": "Combination requires at least two factors"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Exact source-based combination membership",
+      "location": "county",
+      "code": "all",
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 80,
+      "rule": "all",
+      "matches": 0
+    },
+    {
+      "name": "Valid-data denominator matches independent source calculation"
+    },
+    {
+      "name": "Only result screen open after applying"
+    },
+    {
+      "name": "Report enabled only after applied result"
+    },
+    {
+      "name": "Match outline receives all matching tract geometries"
+    },
+    {
+      "name": "Map tab preserves combination results",
+      "factor": "precipitation"
+    },
+    {
+      "name": "Map tab updates map context",
+      "factor": "precipitation"
+    },
+    {
+      "name": "Map tab preserves combination results",
+      "factor": "svi"
+    },
+    {
+      "name": "Map tab updates map context",
+      "factor": "svi"
+    },
+    {
+      "name": "Map tab preserves combination results",
+      "factor": "housing"
+    },
+    {
+      "name": "Map tab updates map context",
+      "factor": "housing"
+    },
+    {
+      "name": "Map tab preserves combination results",
+      "factor": "population"
+    },
+    {
+      "name": "Map tab updates map context",
+      "factor": "population"
+    },
+    {
+      "name": "Map tab preserves combination results",
+      "factor": "combined"
+    },
+    {
+      "name": "Map tab updates map context",
+      "factor": "combined"
+    },
+    {
+      "name": "Legend membership remains in selected scope"
+    },
+    {
+      "name": "Table can show all selected tracts"
+    },
+    {
+      "name": "Table filters matching tracts"
+    },
+    {
+      "name": "CSV download requested with selected geography"
+    },
+    {
+      "name": "CSV preserves exact value, unit, period and cutoff columns"
+    },
+    {
+      "name": "CSV includes every selected tract irrespective of table filter"
+    },
+    {
+      "name": "Combination brief includes every input and condition"
+    },
+    {
+      "name": "Combination brief contains four selected inputs"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Exact source-based combination membership",
+      "location": "county",
+      "code": "all",
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 80,
+      "rule": "any",
+      "matches": 622
+    },
+    {
+      "name": "Valid-data denominator matches independent source calculation"
+    },
+    {
+      "name": "Only result screen open after applying"
+    },
+    {
+      "name": "Report enabled only after applied result"
+    },
+    {
+      "name": "Match outline receives all matching tract geometries"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Exact source-based combination membership",
+      "location": "county",
+      "code": "all",
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 80,
+      "rule": "atleast",
+      "matches": 244
+    },
+    {
+      "name": "Valid-data denominator matches independent source calculation"
+    },
+    {
+      "name": "Only result screen open after applying"
+    },
+    {
+      "name": "Report enabled only after applied result"
+    },
+    {
+      "name": "Match outline receives all matching tract geometries"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Exact source-based combination membership",
+      "location": "county",
+      "code": "all",
+      "fields": [
+        "pr_15",
+        "SVI"
+      ],
+      "percentile": 90,
+      "rule": "all",
+      "matches": 11
+    },
+    {
+      "name": "Valid-data denominator matches independent source calculation"
+    },
+    {
+      "name": "Only result screen open after applying"
+    },
+    {
+      "name": "Report enabled only after applied result"
+    },
+    {
+      "name": "Match outline receives all matching tract geometries"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Exact source-based combination membership",
+      "location": "county",
+      "code": "all",
+      "fields": [
+        "pr_20",
+        "SVI"
+      ],
+      "percentile": 90,
+      "rule": "all",
+      "matches": 11
+    },
+    {
+      "name": "Valid-data denominator matches independent source calculation"
+    },
+    {
+      "name": "Only result screen open after applying"
+    },
+    {
+      "name": "Report enabled only after applied result"
+    },
+    {
+      "name": "Match outline receives all matching tract geometries"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Exact source-based combination membership",
+      "location": "county",
+      "code": "all",
+      "fields": [
+        "pr_25",
+        "SVI"
+      ],
+      "percentile": 90,
+      "rule": "all",
+      "matches": 13
+    },
+    {
+      "name": "Valid-data denominator matches independent source calculation"
+    },
+    {
+      "name": "Only result screen open after applying"
+    },
+    {
+      "name": "Report enabled only after applied result"
+    },
+    {
+      "name": "Match outline receives all matching tract geometries"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Exact source-based combination membership",
+      "location": "county",
+      "code": "all",
+      "fields": [
+        "pr_30",
+        "SVI"
+      ],
+      "percentile": 90,
+      "rule": "all",
+      "matches": 13
+    },
+    {
+      "name": "Valid-data denominator matches independent source calculation"
+    },
+    {
+      "name": "Only result screen open after applying"
+    },
+    {
+      "name": "Report enabled only after applied result"
+    },
+    {
+      "name": "Match outline receives all matching tract geometries"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Exact source-based combination membership",
+      "location": "county",
+      "code": "all",
+      "fields": [
+        "sens_pct",
+        "SVI",
+        "parcel_hu_change"
+      ],
+      "percentile": 80,
+      "rule": "all",
+      "matches": 5
+    },
+    {
+      "name": "Valid-data denominator matches independent source calculation"
+    },
+    {
+      "name": "Only result screen open after applying"
+    },
+    {
+      "name": "Report enabled only after applied result"
+    },
+    {
+      "name": "Match outline receives all matching tract geometries"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Exact source-based combination membership",
+      "location": "county",
+      "code": "all",
+      "fields": [
+        "SVI",
+        "hp_2020"
+      ],
+      "percentile": 80,
+      "rule": "all",
+      "matches": 30
+    },
+    {
+      "name": "Valid-data denominator matches independent source calculation"
+    },
+    {
+      "name": "Only result screen open after applying"
+    },
+    {
+      "name": "Report enabled only after applied result"
+    },
+    {
+      "name": "Match outline receives all matching tract geometries"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Exact source-based combination membership",
+      "location": "county",
+      "code": "all",
+      "fields": [
+        "SVI",
+        "hp_2050"
+      ],
+      "percentile": 80,
+      "rule": "all",
+      "matches": 29
+    },
+    {
+      "name": "Valid-data denominator matches independent source calculation"
+    },
+    {
+      "name": "Only result screen open after applying"
+    },
+    {
+      "name": "Report enabled only after applied result"
+    },
+    {
+      "name": "Match outline receives all matching tract geometries"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Exact source-based combination membership",
+      "location": "county",
+      "code": "all",
+      "fields": [
+        "SVI",
+        "pop_chg"
+      ],
+      "percentile": 80,
+      "rule": "all",
+      "matches": 36
+    },
+    {
+      "name": "Valid-data denominator matches independent source calculation"
+    },
+    {
+      "name": "Only result screen open after applying"
+    },
+    {
+      "name": "Report enabled only after applied result"
+    },
+    {
+      "name": "Match outline receives all matching tract geometries"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Exact source-based combination membership",
+      "location": "zip",
+      "code": "77007",
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 80,
+      "rule": "all",
+      "matches": 0
+    },
+    {
+      "name": "Valid-data denominator matches independent source calculation"
+    },
+    {
+      "name": "Only result screen open after applying"
+    },
+    {
+      "name": "Report enabled only after applied result"
+    },
+    {
+      "name": "Match outline receives all matching tract geometries"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Exact source-based combination membership",
+      "location": "precinct",
+      "code": "1",
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 80,
+      "rule": "all",
+      "matches": 0
+    },
+    {
+      "name": "Valid-data denominator matches independent source calculation"
+    },
+    {
+      "name": "Only result screen open after applying"
+    },
+    {
+      "name": "Report enabled only after applied result"
+    },
+    {
+      "name": "Match outline receives all matching tract geometries"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Exact source-based combination membership",
+      "location": "precinct",
+      "code": "4",
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 80,
+      "rule": "all",
+      "matches": 0
+    },
+    {
+      "name": "Valid-data denominator matches independent source calculation"
+    },
+    {
+      "name": "Only result screen open after applying"
+    },
+    {
+      "name": "Report enabled only after applied result"
+    },
+    {
+      "name": "Match outline receives all matching tract geometries"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Exact source-based combination membership",
+      "location": "tract",
+      "code": "48201342001",
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 80,
+      "rule": "all",
+      "matches": 0
+    },
+    {
+      "name": "Valid-data denominator matches independent source calculation"
+    },
+    {
+      "name": "Only result screen open after applying"
+    },
+    {
+      "name": "Report enabled only after applied result"
+    },
+    {
+      "name": "Match outline receives all matching tract geometries"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Exact source-based combination membership",
+      "location": "county",
+      "code": "all",
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg",
+        "hh_chg",
+        "job_chg"
+      ],
+      "percentile": 80,
+      "rule": "atleast",
+      "matches": 212
+    },
+    {
+      "name": "Valid-data denominator matches independent source calculation"
+    },
+    {
+      "name": "Only result screen open after applying"
+    },
+    {
+      "name": "Report enabled only after applied result"
+    },
+    {
+      "name": "Match outline receives all matching tract geometries"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Exact source-based combination membership",
+      "location": "tract",
+      "code": "48201342001",
+      "fields": [
+        "pr_25",
+        "SVI"
+      ],
+      "percentile": 95,
+      "rule": "all",
+      "matches": 0
+    },
+    {
+      "name": "Valid-data denominator matches independent source calculation"
+    },
+    {
+      "name": "Only result screen open after applying"
+    },
+    {
+      "name": "Report enabled only after applied result"
+    },
+    {
+      "name": "Match outline receives all matching tract geometries"
+    },
+    {
+      "name": "Zero-match source case reached"
+    },
+    {
+      "name": "Zero matches are not labeled no exposure"
+    },
+    {
+      "name": "Zero-match results offer explicit adjustment"
+    },
+    {
+      "name": "Adjustment opens periods and rules without silently changing rule"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Exact source-based combination membership",
+      "location": "zip",
+      "code": "77007",
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 80,
+      "rule": "all",
+      "matches": 0
+    },
+    {
+      "name": "Valid-data denominator matches independent source calculation"
+    },
+    {
+      "name": "Only result screen open after applying"
+    },
+    {
+      "name": "Report enabled only after applied result"
+    },
+    {
+      "name": "Match outline receives all matching tract geometries"
+    },
+    {
+      "name": "Table inspection keeps selected ZIP"
+    },
+    {
+      "name": "Tract inspection includes all input flags and rule"
+    },
+    {
+      "name": "Tract adoption explicitly updates location"
+    },
+    {
+      "name": "Adopted tract has one-tract result scope"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Exact source-based combination membership",
+      "location": "county",
+      "code": "all",
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 80,
+      "rule": "all",
+      "matches": 0
+    },
+    {
+      "name": "Valid-data denominator matches independent source calculation"
+    },
+    {
+      "name": "Only result screen open after applying"
+    },
+    {
+      "name": "Report enabled only after applied result"
+    },
+    {
+      "name": "Match outline receives all matching tract geometries"
+    },
+    {
+      "name": "Changing warming invalidates old report and result snapshot"
+    },
+    {
+      "name": "Changing warming locks downstream steps until reviewed"
+    },
+    {
+      "name": "No precipitation removes and disables precipitation input"
+    },
+    {
+      "name": "Compatible nonclimate factors persist"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Population keeps demographic comparison after selecting a warming condition"
+    },
+    {
+      "name": "Population chart is not replaced by climate chart"
+    },
+    {
+      "name": "Unused climate selection is explained for single-layer population"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "SVI retains baseline field"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "CHEI retains supplied source field"
+    },
+    {
+      "name": "CHEI climate assumptions clearly remain supplied"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Fixed hotspot categories remain available"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Warming comparison keeps supplied percentage-change field"
+    },
+    {
+      "name": "Warming comparison shows its two underlying conditions"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Single precipitation view uses chosen warming field"
+    },
+    {
+      "name": "Four-condition chart remains available"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Catalogue exposes all 17 families in grouped order"
+    },
+    {
+      "name": "Single warming condition enables every catalogue family"
+    },
+    {
+      "name": "Catalogue is organized into five topic groups"
+    },
+    {
+      "name": "Search shows matching indicator cards"
+    },
+    {
+      "name": "Search retains a checked indicator hidden by the query"
+    },
+    {
+      "name": "Selected chips retain inputs across filtered groups"
+    },
+    {
+      "name": "A hidden selected input can be removed with its chip"
+    },
+    {
+      "name": "Unmatched catalogue search explains its empty result"
+    },
+    {
+      "name": "Show all indicators clears the active search"
+    },
+    {
+      "name": "Show all indicators opens every topic group"
+    },
+    {
+      "name": "Collapse groups hides choices without clearing selected state"
+    },
+    {
+      "name": "Collapsing groups preserves selected inputs"
+    },
+    {
+      "name": "Clear selections resets the catalogue and blocks an empty combination"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Catalogue prerequisite matches the precipitation path",
+      "climate": "compare",
+      "id": "precipitation",
+      "unavailable": false
+    },
+    {
+      "name": "Catalogue prerequisite matches the precipitation path",
+      "climate": "compare",
+      "id": "svi",
+      "unavailable": false
+    },
+    {
+      "name": "Catalogue prerequisite matches the precipitation path",
+      "climate": "compare",
+      "id": "housing",
+      "unavailable": false
+    },
+    {
+      "name": "Catalogue prerequisite matches the precipitation path",
+      "climate": "compare",
+      "id": "population",
+      "unavailable": false
+    },
+    {
+      "name": "Catalogue prerequisite matches the precipitation path",
+      "climate": "compare",
+      "id": "chei",
+      "unavailable": false
+    },
+    {
+      "name": "Catalogue prerequisite matches the precipitation path",
+      "climate": "compare",
+      "id": "hotspot",
+      "unavailable": false
+    },
+    {
+      "name": "Catalogue prerequisite matches the precipitation path",
+      "climate": "compare",
+      "id": "pop_density",
+      "unavailable": false
+    },
+    {
+      "name": "Catalogue prerequisite matches the precipitation path",
+      "climate": "compare",
+      "id": "sf_tract",
+      "unavailable": false
+    },
+    {
+      "name": "Catalogue prerequisite matches the precipitation path",
+      "climate": "compare",
+      "id": "mf_tract",
+      "unavailable": false
+    },
+    {
+      "name": "Catalogue prerequisite matches the precipitation path",
+      "climate": "compare",
+      "id": "housing_density",
+      "unavailable": false
+    },
+    {
+      "name": "Catalogue prerequisite matches the precipitation path",
+      "climate": "compare",
+      "id": "housing_points",
+      "unavailable": false
+    },
+    {
+      "name": "Catalogue prerequisite matches the precipitation path",
+      "climate": "compare",
+      "id": "households",
+      "unavailable": false
+    },
+    {
+      "name": "Catalogue prerequisite matches the precipitation path",
+      "climate": "compare",
+      "id": "employment",
+      "unavailable": false
+    },
+    {
+      "name": "Catalogue prerequisite matches the precipitation path",
+      "climate": "compare",
+      "id": "land_use",
+      "unavailable": false
+    },
+    {
+      "name": "Catalogue prerequisite matches the precipitation path",
+      "climate": "compare",
+      "id": "pr_points",
+      "unavailable": true
+    },
+    {
+      "name": "Catalogue prerequisite matches the precipitation path",
+      "climate": "compare",
+      "id": "pr_kriging",
+      "unavailable": true
+    },
+    {
+      "name": "Catalogue prerequisite matches the precipitation path",
+      "climate": "compare",
+      "id": "pr_change",
+      "unavailable": false
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Catalogue prerequisite matches the precipitation path",
+      "climate": "none",
+      "id": "precipitation",
+      "unavailable": true
+    },
+    {
+      "name": "Catalogue prerequisite matches the precipitation path",
+      "climate": "none",
+      "id": "svi",
+      "unavailable": false
+    },
+    {
+      "name": "Catalogue prerequisite matches the precipitation path",
+      "climate": "none",
+      "id": "housing",
+      "unavailable": false
+    },
+    {
+      "name": "Catalogue prerequisite matches the precipitation path",
+      "climate": "none",
+      "id": "population",
+      "unavailable": false
+    },
+    {
+      "name": "Catalogue prerequisite matches the precipitation path",
+      "climate": "none",
+      "id": "chei",
+      "unavailable": false
+    },
+    {
+      "name": "Catalogue prerequisite matches the precipitation path",
+      "climate": "none",
+      "id": "hotspot",
+      "unavailable": false
+    },
+    {
+      "name": "Catalogue prerequisite matches the precipitation path",
+      "climate": "none",
+      "id": "pop_density",
+      "unavailable": false
+    },
+    {
+      "name": "Catalogue prerequisite matches the precipitation path",
+      "climate": "none",
+      "id": "sf_tract",
+      "unavailable": false
+    },
+    {
+      "name": "Catalogue prerequisite matches the precipitation path",
+      "climate": "none",
+      "id": "mf_tract",
+      "unavailable": false
+    },
+    {
+      "name": "Catalogue prerequisite matches the precipitation path",
+      "climate": "none",
+      "id": "housing_density",
+      "unavailable": false
+    },
+    {
+      "name": "Catalogue prerequisite matches the precipitation path",
+      "climate": "none",
+      "id": "housing_points",
+      "unavailable": false
+    },
+    {
+      "name": "Catalogue prerequisite matches the precipitation path",
+      "climate": "none",
+      "id": "households",
+      "unavailable": false
+    },
+    {
+      "name": "Catalogue prerequisite matches the precipitation path",
+      "climate": "none",
+      "id": "employment",
+      "unavailable": false
+    },
+    {
+      "name": "Catalogue prerequisite matches the precipitation path",
+      "climate": "none",
+      "id": "land_use",
+      "unavailable": false
+    },
+    {
+      "name": "Catalogue prerequisite matches the precipitation path",
+      "climate": "none",
+      "id": "pr_points",
+      "unavailable": true
+    },
+    {
+      "name": "Catalogue prerequisite matches the precipitation path",
+      "climate": "none",
+      "id": "pr_kriging",
+      "unavailable": true
+    },
+    {
+      "name": "Catalogue prerequisite matches the precipitation path",
+      "climate": "none",
+      "id": "pr_change",
+      "unavailable": false
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Tract and surface precipitation aliases are rejected in indicator selection"
+    },
+    {
+      "name": "Removing an exact precipitation alias restores continuation"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Expanded combination accepts all selected compatible inputs",
+      "factors": [
+        "pr_kriging",
+        "svi"
+      ]
+    },
+    {
+      "name": "Expanded controls select the independently expected source fields",
+      "fields": [
+        "pr_20",
+        "SVI"
+      ]
+    },
+    {
+      "name": "Expanded numeric/category matches equal independent source calculation",
+      "scope": "county/all",
+      "rule": "all",
+      "matches": 57
+    },
+    {
+      "name": "Expanded screen uses complete-case denominator for the selected scope",
+      "eligible": 1115,
+      "missing": 0
+    },
+    {
+      "name": "Every scoped numeric/category condition flag matches source-based expectation"
+    },
+    {
+      "name": "Empty coverage and valid zero-match shares remain distinct"
+    },
+    {
+      "name": "Numeric cutoffs and categorical absence of cutoffs are correct"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Duplicate warming-change aliases are rejected"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Expanded combination accepts all selected compatible inputs",
+      "factors": [
+        "pr_change",
+        "svi"
+      ]
+    },
+    {
+      "name": "Expanded controls select the independently expected source fields",
+      "fields": [
+        "sens_pct",
+        "SVI"
+      ]
+    },
+    {
+      "name": "Expanded numeric/category matches equal independent source calculation",
+      "scope": "county/all",
+      "rule": "all",
+      "matches": 52
+    },
+    {
+      "name": "Expanded screen uses complete-case denominator for the selected scope",
+      "eligible": 1115,
+      "missing": 0
+    },
+    {
+      "name": "Every scoped numeric/category condition flag matches source-based expectation"
+    },
+    {
+      "name": "Empty coverage and valid zero-match shares remain distinct"
+    },
+    {
+      "name": "Numeric cutoffs and categorical absence of cutoffs are correct"
+    },
+    {
+      "name": "Dedicated fixed precipitation comparison works independently of Step 2"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Expanded combination accepts all selected compatible inputs",
+      "factors": [
+        "svi",
+        "chei",
+        "households",
+        "employment"
+      ]
+    },
+    {
+      "name": "Expanded controls select the independently expected source fields",
+      "fields": [
+        "SVI",
+        "CHEI_2020",
+        "hh_2020",
+        "j_2020"
+      ]
+    },
+    {
+      "name": "Expanded numeric/category matches equal independent source calculation",
+      "scope": "county/all",
+      "rule": "any",
+      "matches": 633
+    },
+    {
+      "name": "Expanded screen uses complete-case denominator for the selected scope",
+      "eligible": 1115,
+      "missing": 0
+    },
+    {
+      "name": "Every scoped numeric/category condition flag matches source-based expectation"
+    },
+    {
+      "name": "Empty coverage and valid zero-match shares remain distinct"
+    },
+    {
+      "name": "Numeric cutoffs and categorical absence of cutoffs are correct"
+    },
+    {
+      "name": "CHEI, household, and employment references follow per-input periods",
+      "period": "2020"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Expanded combination accepts all selected compatible inputs",
+      "factors": [
+        "svi",
+        "chei",
+        "households",
+        "employment"
+      ]
+    },
+    {
+      "name": "Expanded controls select the independently expected source fields",
+      "fields": [
+        "SVI",
+        "CHEI_2050",
+        "hh_2050",
+        "j_2050"
+      ]
+    },
+    {
+      "name": "Expanded numeric/category matches equal independent source calculation",
+      "scope": "county/all",
+      "rule": "any",
+      "matches": 595
+    },
+    {
+      "name": "Expanded screen uses complete-case denominator for the selected scope",
+      "eligible": 1115,
+      "missing": 0
+    },
+    {
+      "name": "Every scoped numeric/category condition flag matches source-based expectation"
+    },
+    {
+      "name": "Empty coverage and valid zero-match shares remain distinct"
+    },
+    {
+      "name": "Numeric cutoffs and categorical absence of cutoffs are correct"
+    },
+    {
+      "name": "CHEI, household, and employment references follow per-input periods",
+      "period": "2050"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Expanded combination accepts all selected compatible inputs",
+      "factors": [
+        "svi",
+        "chei",
+        "households",
+        "employment"
+      ]
+    },
+    {
+      "name": "Expanded controls select the independently expected source fields",
+      "fields": [
+        "SVI",
+        "adapt_gap",
+        "hh_chg",
+        "job_chg"
+      ]
+    },
+    {
+      "name": "Expanded numeric/category matches equal independent source calculation",
+      "scope": "county/all",
+      "rule": "any",
+      "matches": 576
+    },
+    {
+      "name": "Expanded screen uses complete-case denominator for the selected scope",
+      "eligible": 1115,
+      "missing": 0
+    },
+    {
+      "name": "Every scoped numeric/category condition flag matches source-based expectation"
+    },
+    {
+      "name": "Empty coverage and valid zero-match shares remain distinct"
+    },
+    {
+      "name": "Numeric cutoffs and categorical absence of cutoffs are correct"
+    },
+    {
+      "name": "CHEI, household, and employment references follow per-input periods",
+      "period": "change"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Expanded combination accepts all selected compatible inputs",
+      "factors": [
+        "svi",
+        "housing_density",
+        "housing_points"
+      ]
+    },
+    {
+      "name": "Expanded controls select the independently expected source fields",
+      "fields": [
+        "SVI",
+        "grid_sf_median",
+        "n_single_f"
+      ]
+    },
+    {
+      "name": "Expanded numeric/category matches equal independent source calculation",
+      "scope": "county/all",
+      "rule": "any",
+      "matches": 576
+    },
+    {
+      "name": "Expanded screen uses complete-case denominator for the selected scope",
+      "eligible": 1109,
+      "missing": 6
+    },
+    {
+      "name": "Every scoped numeric/category condition flag matches source-based expectation"
+    },
+    {
+      "name": "Empty coverage and valid zero-match shares remain distinct"
+    },
+    {
+      "name": "Numeric cutoffs and categorical absence of cutoffs are correct"
+    },
+    {
+      "name": "Grid and housing-location notes retain full-cell and complete-count support",
+      "housing": "single"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Expanded combination accepts all selected compatible inputs",
+      "factors": [
+        "svi",
+        "housing_density",
+        "housing_points"
+      ]
+    },
+    {
+      "name": "Expanded controls select the independently expected source fields",
+      "fields": [
+        "SVI",
+        "grid_mf_median",
+        "n_multi_fa"
+      ]
+    },
+    {
+      "name": "Expanded numeric/category matches equal independent source calculation",
+      "scope": "county/all",
+      "rule": "any",
+      "matches": 1109
+    },
+    {
+      "name": "Expanded screen uses complete-case denominator for the selected scope",
+      "eligible": 1109,
+      "missing": 6
+    },
+    {
+      "name": "Every scoped numeric/category condition flag matches source-based expectation"
+    },
+    {
+      "name": "Empty coverage and valid zero-match shares remain distinct"
+    },
+    {
+      "name": "Numeric cutoffs and categorical absence of cutoffs are correct"
+    },
+    {
+      "name": "Grid and housing-location notes retain full-cell and complete-count support",
+      "housing": "multi"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Expanded combination accepts all selected compatible inputs",
+      "factors": [
+        "svi",
+        "housing_density",
+        "housing_points"
+      ]
+    },
+    {
+      "name": "Expanded controls select the independently expected source fields",
+      "fields": [
+        "SVI",
+        "grid_total_median",
+        "housing_total_records"
+      ]
+    },
+    {
+      "name": "Expanded numeric/category matches equal independent source calculation",
+      "scope": "county/all",
+      "rule": "any",
+      "matches": 576
+    },
+    {
+      "name": "Expanded screen uses complete-case denominator for the selected scope",
+      "eligible": 1109,
+      "missing": 6
+    },
+    {
+      "name": "Every scoped numeric/category condition flag matches source-based expectation"
+    },
+    {
+      "name": "Empty coverage and valid zero-match shares remain distinct"
+    },
+    {
+      "name": "Numeric cutoffs and categorical absence of cutoffs are correct"
+    },
+    {
+      "name": "Grid and housing-location notes retain full-cell and complete-count support",
+      "housing": "combined"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Housing-type change blocks duplicate source fields at the result gate"
+    },
+    {
+      "name": "Configurable housing alias keeps its Step 4 resolution reachable",
+      "message": "3 indicators selected. Next, set periods, housing types, and the conditions that count as a match. Two housing choices currently use the same measure. Continue to Step 4 and choose a different housing type before showing results."
+    },
+    {
+      "name": "Choosing a distinct housing type resolves the duplicate"
+    },
+    {
+      "name": "Expanded combination accepts all selected compatible inputs",
+      "factors": [
+        "svi",
+        "sf_tract",
+        "housing_points"
+      ]
+    },
+    {
+      "name": "Expanded controls select the independently expected source fields",
+      "fields": [
+        "SVI",
+        "n_single_f",
+        "n_multi_fa"
+      ]
+    },
+    {
+      "name": "Expanded numeric/category matches equal independent source calculation",
+      "scope": "county/all",
+      "rule": "any",
+      "matches": 533
+    },
+    {
+      "name": "Expanded screen uses complete-case denominator for the selected scope",
+      "eligible": 1115,
+      "missing": 0
+    },
+    {
+      "name": "Every scoped numeric/category condition flag matches source-based expectation"
+    },
+    {
+      "name": "Empty coverage and valid zero-match shares remain distinct"
+    },
+    {
+      "name": "Numeric cutoffs and categorical absence of cutoffs are correct"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Expanded combination accepts all selected compatible inputs",
+      "factors": [
+        "svi",
+        "housing_points"
+      ]
+    },
+    {
+      "name": "Expanded controls select the independently expected source fields",
+      "fields": [
+        "SVI",
+        "housing_total_records"
+      ]
+    },
+    {
+      "name": "Expanded numeric/category matches equal independent source calculation",
+      "scope": "county/all",
+      "rule": "all",
+      "matches": 13
+    },
+    {
+      "name": "Expanded screen uses complete-case denominator for the selected scope",
+      "eligible": 1115,
+      "missing": 0
+    },
+    {
+      "name": "Every scoped numeric/category condition flag matches source-based expectation"
+    },
+    {
+      "name": "Empty coverage and valid zero-match shares remain distinct"
+    },
+    {
+      "name": "Numeric cutoffs and categorical absence of cutoffs are correct"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Category-only combinations hide numeric percentile controls"
+    },
+    {
+      "name": "All eight fixed hotspot names are available"
+    },
+    {
+      "name": "Empty hotspot category set blocks results with an explanation"
+    },
+    {
+      "name": "Current land-use choices match source category names"
+    },
+    {
+      "name": "Changing land-use period removes unsupported previous categories"
+    },
+    {
+      "name": "Period change requires a valid new category instead of silently substituting one"
+    },
+    {
+      "name": "Future land-use options remain limited to supplied names"
+    },
+    {
+      "name": "A supported named category restores continuation"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Expanded combination accepts all selected compatible inputs",
+      "factors": [
+        "hotspot",
+        "land_use"
+      ]
+    },
+    {
+      "name": "Expanded controls select the independently expected source fields",
+      "fields": [
+        "hotspot_combo",
+        "parcel_current_lu_mode"
+      ]
+    },
+    {
+      "name": "Expanded numeric/category matches equal independent source calculation",
+      "scope": "county/all",
+      "rule": "all",
+      "matches": 461
+    },
+    {
+      "name": "Expanded screen uses complete-case denominator for the selected scope",
+      "eligible": 787,
+      "missing": 328
+    },
+    {
+      "name": "Every scoped numeric/category condition flag matches source-based expectation"
+    },
+    {
+      "name": "Empty coverage and valid zero-match shares remain distinct"
+    },
+    {
+      "name": "Numeric cutoffs and categorical absence of cutoffs are correct"
+    },
+    {
+      "name": "A category-only screen uses membership conditions without numeric factors"
+    },
+    {
+      "name": "A valid None high hotspot category can meet an explicit named condition"
+    },
+    {
+      "name": "Category-only CSV does not invent numeric cutoffs or percentiles"
+    },
+    {
+      "name": "CSV identifies categorical criterion types and methods"
+    },
+    {
+      "name": "CSV preserves all selected hotspot category names"
+    },
+    {
+      "name": "Category-only brief retains its two named conditions"
+    },
+    {
+      "name": "Category brief does not label categories as numeric high values"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Expanded combination accepts all selected compatible inputs",
+      "factors": [
+        "precipitation",
+        "svi",
+        "housing",
+        "population",
+        "chei",
+        "hotspot",
+        "pop_density",
+        "sf_tract",
+        "mf_tract",
+        "housing_density",
+        "housing_points",
+        "households",
+        "employment",
+        "land_use",
+        "pr_points",
+        "pr_change"
+      ]
+    },
+    {
+      "name": "Expanded controls select the independently expected source fields",
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050",
+        "CHEI_2050",
+        "hotspot_combo",
+        "pop_den",
+        "n_single_f",
+        "n_multi_fa",
+        "grid_total_median",
+        "housing_total_records",
+        "hh_chg",
+        "job_chg",
+        "parcel_future_lu_mode",
+        "point_pr_25",
+        "sens_pct"
+      ]
+    },
+    {
+      "name": "Expanded numeric/category matches equal independent source calculation",
+      "scope": "county/all",
+      "rule": "atleast",
+      "matches": 160
+    },
+    {
+      "name": "Expanded screen uses complete-case denominator for the selected scope",
+      "eligible": 165,
+      "missing": 950
+    },
+    {
+      "name": "Every scoped numeric/category condition flag matches source-based expectation"
+    },
+    {
+      "name": "Empty coverage and valid zero-match shares remain distinct"
+    },
+    {
+      "name": "Numeric cutoffs and categorical absence of cutoffs are correct"
+    },
+    {
+      "name": "Sixteen compatible families combine beyond the earlier six-input limit"
+    },
+    {
+      "name": "Large combinations present input details in a compact expandable section"
+    },
+    {
+      "name": "Large screen offers every selected input map plus the combined map"
+    },
+    {
+      "name": "Large-screen chart omits empty condition-count classes"
+    },
+    {
+      "name": "Related precipitation, housing, and composite inputs carry interpretation warnings"
+    },
+    {
+      "name": "Dependence warning is visible with the input summary"
+    },
+    {
+      "name": "Large-combination CSV preserves all selected tracts despite the table filter"
+    },
+    {
+      "name": "CSV includes every selected input and its criterion metadata"
+    },
+    {
+      "name": "Incomplete CSV rows retain missing combination results rather than false zero scores"
+    },
+    {
+      "name": "Mixed CSV preserves named categories without a numeric category cutoff"
+    },
+    {
+      "name": "Screening brief retains every input when more than six are selected"
+    },
+    {
+      "name": "Large brief retains all underlying source field identities"
+    },
+    {
+      "name": "Large brief carries dependency notes and supports repeated print table headers"
+    },
+    {
+      "name": "Print action describes a screening brief without promising one page"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Expanded combination accepts all selected compatible inputs",
+      "factors": [
+        "pr_points",
+        "svi",
+        "land_use"
+      ]
+    },
+    {
+      "name": "Expanded controls select the independently expected source fields",
+      "fields": [
+        "point_pr_25",
+        "SVI",
+        "parcel_future_lu_mode"
+      ]
+    },
+    {
+      "name": "Expanded numeric/category matches equal independent source calculation",
+      "scope": "county/all",
+      "rule": "all",
+      "matches": 3
+    },
+    {
+      "name": "Expanded screen uses complete-case denominator for the selected scope",
+      "eligible": 165,
+      "missing": 950
+    },
+    {
+      "name": "Every scoped numeric/category condition flag matches source-based expectation"
+    },
+    {
+      "name": "Empty coverage and valid zero-match shares remain distinct"
+    },
+    {
+      "name": "Numeric cutoffs and categorical absence of cutoffs are correct"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Expanded combination accepts all selected compatible inputs",
+      "factors": [
+        "pr_points",
+        "svi",
+        "land_use"
+      ]
+    },
+    {
+      "name": "Expanded controls select the independently expected source fields",
+      "fields": [
+        "point_pr_25",
+        "SVI",
+        "parcel_future_lu_mode"
+      ]
+    },
+    {
+      "name": "Expanded numeric/category matches equal independent source calculation",
+      "scope": "county/all",
+      "rule": "any",
+      "matches": 161
+    },
+    {
+      "name": "Expanded screen uses complete-case denominator for the selected scope",
+      "eligible": 165,
+      "missing": 950
+    },
+    {
+      "name": "Every scoped numeric/category condition flag matches source-based expectation"
+    },
+    {
+      "name": "Empty coverage and valid zero-match shares remain distinct"
+    },
+    {
+      "name": "Numeric cutoffs and categorical absence of cutoffs are correct"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Expanded combination accepts all selected compatible inputs",
+      "factors": [
+        "pr_points",
+        "svi",
+        "land_use"
+      ]
+    },
+    {
+      "name": "Expanded controls select the independently expected source fields",
+      "fields": [
+        "point_pr_25",
+        "SVI",
+        "parcel_future_lu_mode"
+      ]
+    },
+    {
+      "name": "Expanded numeric/category matches equal independent source calculation",
+      "scope": "county/all",
+      "rule": "atleast",
+      "matches": 51
+    },
+    {
+      "name": "Expanded screen uses complete-case denominator for the selected scope",
+      "eligible": 165,
+      "missing": 950
+    },
+    {
+      "name": "Every scoped numeric/category condition flag matches source-based expectation"
+    },
+    {
+      "name": "Empty coverage and valid zero-match shares remain distinct"
+    },
+    {
+      "name": "Numeric cutoffs and categorical absence of cutoffs are correct"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Expanded combination accepts all selected compatible inputs",
+      "factors": [
+        "pr_points",
+        "svi"
+      ]
+    },
+    {
+      "name": "Expanded controls select the independently expected source fields",
+      "fields": [
+        "point_pr_25",
+        "SVI"
+      ]
+    },
+    {
+      "name": "Expanded numeric/category matches equal independent source calculation",
+      "scope": "tract/48201342001",
+      "rule": "any",
+      "matches": 0
+    },
+    {
+      "name": "Expanded screen uses complete-case denominator for the selected scope",
+      "eligible": 0,
+      "missing": 1
+    },
+    {
+      "name": "Every scoped numeric/category condition flag matches source-based expectation"
+    },
+    {
+      "name": "Empty coverage and valid zero-match shares remain distinct"
+    },
+    {
+      "name": "Numeric cutoffs and categorical absence of cutoffs are correct"
+    },
+    {
+      "name": "No model point remains missing even under the Any rule"
+    },
+    {
+      "name": "Zero complete records have an explicit unavailable-result explanation"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Expanded combination accepts all selected compatible inputs",
+      "factors": [
+        "mf_tract",
+        "svi"
+      ]
+    },
+    {
+      "name": "Expanded controls select the independently expected source fields",
+      "fields": [
+        "n_multi_fa",
+        "SVI"
+      ]
+    },
+    {
+      "name": "Expanded numeric/category matches equal independent source calculation",
+      "scope": "tract/48201342001",
+      "rule": "any",
+      "matches": 0
+    },
+    {
+      "name": "Expanded screen uses complete-case denominator for the selected scope",
+      "eligible": 1,
+      "missing": 0
+    },
+    {
+      "name": "Every scoped numeric/category condition flag matches source-based expectation"
+    },
+    {
+      "name": "Empty coverage and valid zero-match shares remain distinct"
+    },
+    {
+      "name": "Numeric cutoffs and categorical absence of cutoffs are correct"
+    },
+    {
+      "name": "A valid zero housing-record count remains an evaluated value"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Expanded combination accepts all selected compatible inputs",
+      "factors": [
+        "precipitation",
+        "svi",
+        "land_use",
+        "housing_density"
+      ]
+    },
+    {
+      "name": "Expanded controls select the independently expected source fields",
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_future_lu_mode",
+        "grid_total_median"
+      ]
+    },
+    {
+      "name": "Expanded numeric/category matches equal independent source calculation",
+      "scope": "zip/77007",
+      "rule": "any",
+      "matches": 22
+    },
+    {
+      "name": "Expanded screen uses complete-case denominator for the selected scope",
+      "eligible": 22,
+      "missing": 1
+    },
+    {
+      "name": "Every scoped numeric/category condition flag matches source-based expectation"
+    },
+    {
+      "name": "Empty coverage and valid zero-match shares remain distinct"
+    },
+    {
+      "name": "Numeric cutoffs and categorical absence of cutoffs are correct"
+    },
+    {
+      "name": "Mixed input tab preserves combined matches and summary",
+      "id": "land_use"
+    },
+    {
+      "name": "Input tab keeps the selected ZIP",
+      "id": "land_use"
+    },
+    {
+      "name": "Mixed input tab preserves combined matches and summary",
+      "id": "housing_density"
+    },
+    {
+      "name": "Input tab keeps the selected ZIP",
+      "id": "housing_density"
+    },
+    {
+      "name": "Mixed input tab preserves combined matches and summary",
+      "id": "combined"
+    },
+    {
+      "name": "Input tab keeps the selected ZIP",
+      "id": "combined"
+    },
+    {
+      "name": "Mixed legend highlight stays within the chosen ZIP"
+    },
+    {
+      "name": "Legend highlight does not recalculate combination membership"
+    },
+    {
+      "name": "CSV scope stays at the selected ZIP after map and legend changes"
+    },
+    {
+      "name": "Screening brief retains selected ZIP and all inputs after highlighting"
+    },
+    {
+      "name": "Explicit hosted street selection attaches the optional renderer as an underlay"
+    },
+    {
+      "name": "Online street choice exposes linked OpenStreetMap attribution"
+    },
+    {
+      "name": "Repeated street selection does not attach duplicate renderers"
+    },
+    {
+      "name": "Returning to embedded boundaries detaches the tile renderer and retains analytical renderers"
+    },
+    {
+      "name": "Background changes retain the selected analytical screen"
+    },
+    {
+      "name": "Local-file native workflow boots without an online map"
+    },
+    {
+      "name": "Local-file street option is disabled"
+    },
+    {
+      "name": "Local-file default has no attached tile renderer"
+    },
+    {
+      "name": "Local-file guard rejects a programmatic online-street change"
+    },
+    {
+      "name": "Local-file map notice explains embedded operation"
+    },
+    {
+      "name": "No local-file DOM initialization errors",
+      "errors": []
+    },
+    {
+      "name": "Restart clears workflow state"
+    },
+    {
+      "name": "One editable step open"
+    },
+    {
+      "name": "Navigation opens requested page",
+      "page": "methods"
+    },
+    {
+      "name": "Navigation opens requested page",
+      "page": "terms"
+    },
+    {
+      "name": "Navigation opens requested page",
+      "page": "help"
+    },
+    {
+      "name": "Navigation opens requested page",
+      "page": "explorer"
+    },
+    {
+      "name": "No native application DOM execution errors",
+      "errors": []
+    },
+    {
+      "name": "All tested native workflows preserve source analytical arrays"
+    }
+  ],
+  "engine_calls": 52,
+  "errors": [],
+  "source_sha256": {
+    "index.html": "6041b94dc53920ce2afb83abed5860198ba714adf37621f245145aa33203e70b",
+    "web/guided.html": "3773b02ca0611dab7853c9384523a07e5f9bb3f344242e57895954ecd6f4c5d3",
+    "web/guided.js": "4f80cd208ad896e300c9be88f38412a1cd677f636c60fef6a74d1d117d540daa",
+    "web/factor_catalog.js": "19e10dbf5e44236806629a6ed245d0aac8b80d7153bd37a8b056efc05cfdca9c",
+    "web/combined_view.js": "4e3598611a61964a08e2dae504da4bedbfccdbb2d90f885cae5762dc00aedb06",
+    "web/overlap.js": "83a1509399a12a7e9aa1106e7553c195285027cf68b33e394715ec65bd54e79c",
+    "data/expanded_indicator_fields.json": "6d2b65dd0356b86e55e24e2e186472995663bc66925acf8025e68deac6a4c0fe"
+  },
+  "limitations": [
+    "Uses jsdom with a documented Bokeh-facing bridge mock, not a graphical browser.",
+    "No canvas/tile rendering, CSS geometry, actual Bokeh model validation, print pagination or responsive visual claims.",
+    "Source JavaScript is evaluated with the generated page metadata; this does not prove that every final HTML byte is identical to the tested source."
+  ],
+  "source": "Production web/guided.js, web/factor_catalog.js, web/combined_view.js, web/overlap.js, original GeoJSON data, and expanded_indicator_fields.json"
+}

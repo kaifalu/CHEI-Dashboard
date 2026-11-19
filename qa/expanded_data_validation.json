@@ -1,0 +1,255 @@
+{
+  "status": "passed",
+  "check_count": 38,
+  "tracts": 1115,
+  "derived_columns": 21,
+  "independently_compared_values": 23415,
+  "checks": [
+    {
+      "check": "Current source parcels have unambiguous within-tract allocation"
+    },
+    {
+      "check": "Independent numeric/support column agrees",
+      "field": "point_pr_15",
+      "records": 1115
+    },
+    {
+      "check": "Independent numeric/support column agrees",
+      "field": "point_pr_15_n",
+      "records": 1115
+    },
+    {
+      "check": "Independent numeric/support column agrees",
+      "field": "point_pr_20",
+      "records": 1115
+    },
+    {
+      "check": "Independent numeric/support column agrees",
+      "field": "point_pr_20_n",
+      "records": 1115
+    },
+    {
+      "check": "Independent numeric/support column agrees",
+      "field": "point_pr_25",
+      "records": 1115
+    },
+    {
+      "check": "Independent numeric/support column agrees",
+      "field": "point_pr_25_n",
+      "records": 1115
+    },
+    {
+      "check": "Independent numeric/support column agrees",
+      "field": "point_pr_30",
+      "records": 1115
+    },
+    {
+      "check": "Independent numeric/support column agrees",
+      "field": "point_pr_30_n",
+      "records": 1115
+    },
+    {
+      "check": "Independent numeric/support column agrees",
+      "field": "grid_intersect_count",
+      "records": 1115
+    },
+    {
+      "check": "Independent numeric/support column agrees",
+      "field": "grid_sf_median",
+      "records": 1115
+    },
+    {
+      "check": "Independent numeric/support column agrees",
+      "field": "grid_sf_median_n",
+      "records": 1115
+    },
+    {
+      "check": "Independent numeric/support column agrees",
+      "field": "grid_mf_median",
+      "records": 1115
+    },
+    {
+      "check": "Independent numeric/support column agrees",
+      "field": "grid_mf_median_n",
+      "records": 1115
+    },
+    {
+      "check": "Independent numeric/support column agrees",
+      "field": "grid_total_median",
+      "records": 1115
+    },
+    {
+      "check": "Independent numeric/support column agrees",
+      "field": "grid_total_median_n",
+      "records": 1115
+    },
+    {
+      "check": "Independent numeric/support column agrees",
+      "field": "housing_total_records",
+      "records": 1115
+    },
+    {
+      "check": "Independent numeric/support column agrees",
+      "field": "parcel_count",
+      "records": 1115
+    },
+    {
+      "check": "Independent categorical/support column agrees",
+      "field": "parcel_current_lu_mode",
+      "records": 1115
+    },
+    {
+      "check": "Independent categorical/support column agrees",
+      "field": "parcel_current_lu_mode_tied",
+      "records": 1115
+    },
+    {
+      "check": "Independent categorical/support column agrees",
+      "field": "parcel_future_lu_mode",
+      "records": 1115
+    },
+    {
+      "check": "Independent categorical/support column agrees",
+      "field": "parcel_future_lu_mode_tied",
+      "records": 1115
+    },
+    {
+      "check": "Assigned parcel coverage agrees independently",
+      "assigned": 20342,
+      "unassigned": 2
+    },
+    {
+      "check": "All original layer keys have documented family mappings"
+    },
+    {
+      "check": "Land-use values have no numeric ranking",
+      "field": "parcel_current_lu_mode"
+    },
+    {
+      "check": "Initial category conditions are explicit and supported",
+      "field": "parcel_current_lu_mode"
+    },
+    {
+      "check": "Land-use values have no numeric ranking",
+      "field": "parcel_future_lu_mode"
+    },
+    {
+      "check": "Initial category conditions are explicit and supported",
+      "field": "parcel_future_lu_mode"
+    },
+    {
+      "check": "Zero precipitation is valid; absent or all-missing point coverage stays null"
+    },
+    {
+      "check": "Exactly-on-boundary climate point is not silently assigned"
+    },
+    {
+      "check": "Land-use tie handling is deterministic and flags the tie"
+    },
+    {
+      "check": "Future land-use remains categorical"
+    },
+    {
+      "check": "Whole intersecting cells use medians; absent grid coverage remains null"
+    },
+    {
+      "check": "Full supplied record counts preserve missing operands"
+    },
+    {
+      "check": "Zero assigned changed parcels is not fabricated land-use coverage"
+    },
+    {
+      "check": "Original prepared input files are unchanged"
+    },
+    {
+      "check": "Original tract housing change is never overwritten"
+    },
+    {
+      "check": "Every derived column preserves source tract order and length"
+    }
+  ],
+  "coverage": {
+    "climate_points": {
+      "source_points": 984,
+      "assigned_points": 984,
+      "unassigned_points": 0,
+      "ambiguous_points": 0
+    },
+    "point_pr_15": {
+      "source_points_at_warming": 246,
+      "tracts_with_values": 197,
+      "tracts_without_values": 918
+    },
+    "point_pr_20": {
+      "source_points_at_warming": 246,
+      "tracts_with_values": 197,
+      "tracts_without_values": 918
+    },
+    "point_pr_25": {
+      "source_points_at_warming": 246,
+      "tracts_with_values": 197,
+      "tracts_without_values": 918
+    },
+    "point_pr_30": {
+      "source_points_at_warming": 246,
+      "tracts_with_values": 197,
+      "tracts_without_values": 918
+    },
+    "grid_sf_median": {
+      "tracts_with_values": 1109,
+      "tracts_without_values": 6
+    },
+    "grid_mf_median": {
+      "tracts_with_values": 1109,
+      "tracts_without_values": 6
+    },
+    "grid_total_median": {
+      "tracts_with_values": 1109,
+      "tracts_without_values": 6
+    },
+    "changed_parcels": {
+      "source_points": 20344,
+      "assigned_points": 20342,
+      "unassigned_points": 2,
+      "ambiguous_points": 0
+    },
+    "parcel_current_lu_mode": {
+      "tracts_with_values": 787,
+      "tracts_without_values": 328,
+      "tied_mode_tracts": 19,
+      "categories": [
+        "Commercial",
+        "Gov/Med/Edu",
+        "Industrial",
+        "Multiple",
+        "Other",
+        "Residential",
+        "Unknown",
+        "Vacant Developable (includes Farming)"
+      ]
+    },
+    "parcel_future_lu_mode": {
+      "tracts_with_values": 787,
+      "tracts_without_values": 328,
+      "tied_mode_tracts": 12,
+      "categories": [
+        "Multiple",
+        "Residential"
+      ]
+    },
+    "preserved_housing_change": {
+      "original_field_overwritten": false,
+      "tracts_with_prepared_vs_original_allocation_difference": 4,
+      "max_absolute_unit_difference": 3.0,
+      "prepared_geometry_change_sum": 333617.0,
+      "preserved_source_change_sum": 333617.0
+    }
+  },
+  "source_hashes": {
+    "tracts_web.geojson": "82dea1662ddbb011aa6abb8c7078b86320c31258f8d75e1185c83fa5a101572d",
+    "parcels_web.geojson": "2d0c2398a5a225fb353a8bb7d2dafbcff5eba8c19689f6e8abcd0dc6f7c10666",
+    "housing_grid.geojson": "aa8ff006b4f83ae76f3a1e3f290bc5e740c359ee5fd157b617d3d86f36674f5a",
+    "climate_points.csv": "7dd9e8f349e8efb5d73a10bdc3199f260c0ac0a131dd18e17da2342f03cafa22"
+  },
+  "method": "Direct vectorized Shapely predicates and independent Pandas statistics, compared to the production spatial-index implementation."
+}

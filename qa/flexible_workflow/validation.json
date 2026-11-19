@@ -1,0 +1,8 @@
+{
+  "release": "Expanded indicators 3.1",
+  "status": "not_run",
+  "checks_passed": 0,
+  "reason": "Graphical browser execution is unavailable in this environment. The prior release established the process-launch limitation; it was not bypassed or retried for this release.",
+  "prior_evidence": "qa/previous_flexible_3_0/browser_launch_limitation.json",
+  "scope": "No claim of graphical canvas, live street tiles, responsive layout geometry, or print pagination verification."
+}

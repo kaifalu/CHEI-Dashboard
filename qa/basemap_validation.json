@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "files": [
+    {
+      "html": "index.html",
+      "detached_optional_renderers": 1,
+      "tile_renderers_attached_by_default": 0,
+      "optional_source": "https://tile.openstreetmap.org/{Z}/{X}/{Y}.png",
+      "attribution": "&amp;copy; &lt;a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\" rel=\"noopener\"&gt;OpenStreetMap contributors&lt;/a&gt;",
+      "embedded_county_boundary": true,
+      "carto_tile_sources": 0
+    },
+    {
+      "html": "climate_housing_exposure_index_dashboard.html",
+      "detached_optional_renderers": 1,
+      "tile_renderers_attached_by_default": 0,
+      "optional_source": "https://tile.openstreetmap.org/{Z}/{X}/{Y}.png",
+      "attribution": "&amp;copy; &lt;a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\" rel=\"noopener\"&gt;OpenStreetMap contributors&lt;/a&gt;",
+      "embedded_county_boundary": true,
+      "carto_tile_sources": 0
+    },
+    {
+      "html": "advanced_explorer.html",
+      "detached_optional_renderers": 1,
+      "tile_renderers_attached_by_default": 0,
+      "optional_source": "https://tile.openstreetmap.org/{Z}/{X}/{Y}.png",
+      "attribution": "&amp;copy; &lt;a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\" rel=\"noopener\"&gt;OpenStreetMap contributors&lt;/a&gt;",
+      "embedded_county_boundary": true,
+      "carto_tile_sources": 0
+    }
+  ],
+  "scope": "Actual serialized Bokeh model graph; no network tile requests or graphical browser test performed."
+}

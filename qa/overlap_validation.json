@@ -1,0 +1,3204 @@
+{
+  "result": "passed",
+  "source_tracts": 1115,
+  "independent_configurations": 160,
+  "synthetic_checks": 53,
+  "source_columns_unchanged": true,
+  "quantile": "Independent Python implementation of linear interpolation at (n-1)*p/100",
+  "comparison": "Raw value >= cutoff; exact ties included",
+  "missing": "Complete-case exclusion for all/any/atleast; empty denominator returns null share",
+  "cases": [
+    {
+      "fields": [
+        "pr_15",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 75,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 5,
+      "cutoffs": {
+        "pr_15": 187.9211925828313,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "hp_2020": 5098.0
+      }
+    },
+    {
+      "fields": [
+        "pr_15",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 75,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 750,
+      "cutoffs": {
+        "pr_15": 187.9211925828313,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "hp_2020": 5098.0
+      }
+    },
+    {
+      "fields": [
+        "pr_15",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 75,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 302,
+      "cutoffs": {
+        "pr_15": 187.9211925828313,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "hp_2020": 5098.0
+      }
+    },
+    {
+      "fields": [
+        "pr_15",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 75,
+      "rule": "atleast",
+      "minimum": 3,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 60,
+      "cutoffs": {
+        "pr_15": 187.9211925828313,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "hp_2020": 5098.0
+      }
+    },
+    {
+      "fields": [
+        "pr_15",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 80,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 1,
+      "cutoffs": {
+        "pr_15": 191.18382906626505,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "hp_2020": 5456.4
+      }
+    },
+    {
+      "fields": [
+        "pr_15",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 80,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 656,
+      "cutoffs": {
+        "pr_15": 191.18382906626505,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "hp_2020": 5456.4
+      }
+    },
+    {
+      "fields": [
+        "pr_15",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 80,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 214,
+      "cutoffs": {
+        "pr_15": 191.18382906626505,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "hp_2020": 5456.4
+      }
+    },
+    {
+      "fields": [
+        "pr_15",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 80,
+      "rule": "atleast",
+      "minimum": 3,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 28,
+      "cutoffs": {
+        "pr_15": 191.18382906626505,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "hp_2020": 5456.4
+      }
+    },
+    {
+      "fields": [
+        "pr_15",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 90,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 0,
+      "cutoffs": {
+        "pr_15": 193.70978445030119,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "hp_2020": 6762.0
+      }
+    },
+    {
+      "fields": [
+        "pr_15",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 90,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 377,
+      "cutoffs": {
+        "pr_15": 193.70978445030119,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "hp_2020": 6762.0
+      }
+    },
+    {
+      "fields": [
+        "pr_15",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 90,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 67,
+      "cutoffs": {
+        "pr_15": 193.70978445030119,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "hp_2020": 6762.0
+      }
+    },
+    {
+      "fields": [
+        "pr_15",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 90,
+      "rule": "atleast",
+      "minimum": 3,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 4,
+      "cutoffs": {
+        "pr_15": 193.70978445030119,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "hp_2020": 6762.0
+      }
+    },
+    {
+      "fields": [
+        "pr_15",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 75,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 4,
+      "cutoffs": {
+        "pr_15": 187.9211925828313,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "hp_2050": 5981.0
+      }
+    },
+    {
+      "fields": [
+        "pr_15",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 75,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 735,
+      "cutoffs": {
+        "pr_15": 187.9211925828313,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "hp_2050": 5981.0
+      }
+    },
+    {
+      "fields": [
+        "pr_15",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 75,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 312,
+      "cutoffs": {
+        "pr_15": 187.9211925828313,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "hp_2050": 5981.0
+      }
+    },
+    {
+      "fields": [
+        "pr_15",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 75,
+      "rule": "atleast",
+      "minimum": 3,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 67,
+      "cutoffs": {
+        "pr_15": 187.9211925828313,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "hp_2050": 5981.0
+      }
+    },
+    {
+      "fields": [
+        "pr_15",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 80,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 1,
+      "cutoffs": {
+        "pr_15": 191.18382906626505,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "hp_2050": 6577.6
+      }
+    },
+    {
+      "fields": [
+        "pr_15",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 80,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 636,
+      "cutoffs": {
+        "pr_15": 191.18382906626505,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "hp_2050": 6577.6
+      }
+    },
+    {
+      "fields": [
+        "pr_15",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 80,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 233,
+      "cutoffs": {
+        "pr_15": 191.18382906626505,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "hp_2050": 6577.6
+      }
+    },
+    {
+      "fields": [
+        "pr_15",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 80,
+      "rule": "atleast",
+      "minimum": 3,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 29,
+      "cutoffs": {
+        "pr_15": 191.18382906626505,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "hp_2050": 6577.6
+      }
+    },
+    {
+      "fields": [
+        "pr_15",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 90,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 0,
+      "cutoffs": {
+        "pr_15": 193.70978445030119,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "hp_2050": 8616.2
+      }
+    },
+    {
+      "fields": [
+        "pr_15",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 90,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 359,
+      "cutoffs": {
+        "pr_15": 193.70978445030119,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "hp_2050": 8616.2
+      }
+    },
+    {
+      "fields": [
+        "pr_15",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 90,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 85,
+      "cutoffs": {
+        "pr_15": 193.70978445030119,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "hp_2050": 8616.2
+      }
+    },
+    {
+      "fields": [
+        "pr_15",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 90,
+      "rule": "atleast",
+      "minimum": 3,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 4,
+      "cutoffs": {
+        "pr_15": 193.70978445030119,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "hp_2050": 8616.2
+      }
+    },
+    {
+      "fields": [
+        "pr_15",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 75,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 3,
+      "cutoffs": {
+        "pr_15": 187.9211925828313,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "pop_chg": 1267.0
+      }
+    },
+    {
+      "fields": [
+        "pr_15",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 75,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 721,
+      "cutoffs": {
+        "pr_15": 187.9211925828313,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "pop_chg": 1267.0
+      }
+    },
+    {
+      "fields": [
+        "pr_15",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 75,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 327,
+      "cutoffs": {
+        "pr_15": 187.9211925828313,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "pop_chg": 1267.0
+      }
+    },
+    {
+      "fields": [
+        "pr_15",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 75,
+      "rule": "atleast",
+      "minimum": 3,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 66,
+      "cutoffs": {
+        "pr_15": 187.9211925828313,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "pop_chg": 1267.0
+      }
+    },
+    {
+      "fields": [
+        "pr_15",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 80,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 0,
+      "cutoffs": {
+        "pr_15": 191.18382906626505,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "pop_chg": 1743.4
+      }
+    },
+    {
+      "fields": [
+        "pr_15",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 80,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 627,
+      "cutoffs": {
+        "pr_15": 191.18382906626505,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "pop_chg": 1743.4
+      }
+    },
+    {
+      "fields": [
+        "pr_15",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 80,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 245,
+      "cutoffs": {
+        "pr_15": 191.18382906626505,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "pop_chg": 1743.4
+      }
+    },
+    {
+      "fields": [
+        "pr_15",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 80,
+      "rule": "atleast",
+      "minimum": 3,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 27,
+      "cutoffs": {
+        "pr_15": 191.18382906626505,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "pop_chg": 1743.4
+      }
+    },
+    {
+      "fields": [
+        "pr_15",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 90,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 0,
+      "cutoffs": {
+        "pr_15": 193.70978445030119,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "pop_chg": 3369.0
+      }
+    },
+    {
+      "fields": [
+        "pr_15",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 90,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 362,
+      "cutoffs": {
+        "pr_15": 193.70978445030119,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "pop_chg": 3369.0
+      }
+    },
+    {
+      "fields": [
+        "pr_15",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 90,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 83,
+      "cutoffs": {
+        "pr_15": 193.70978445030119,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "pop_chg": 3369.0
+      }
+    },
+    {
+      "fields": [
+        "pr_15",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 90,
+      "rule": "atleast",
+      "minimum": 3,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 3,
+      "cutoffs": {
+        "pr_15": 193.70978445030119,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "pop_chg": 3369.0
+      }
+    },
+    {
+      "fields": [
+        "pr_20",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 75,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 5,
+      "cutoffs": {
+        "pr_20": 190.96510244205297,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "hp_2020": 5098.0
+      }
+    },
+    {
+      "fields": [
+        "pr_20",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 75,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 750,
+      "cutoffs": {
+        "pr_20": 190.96510244205297,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "hp_2020": 5098.0
+      }
+    },
+    {
+      "fields": [
+        "pr_20",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 75,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 302,
+      "cutoffs": {
+        "pr_20": 190.96510244205297,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "hp_2020": 5098.0
+      }
+    },
+    {
+      "fields": [
+        "pr_20",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 75,
+      "rule": "atleast",
+      "minimum": 3,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 60,
+      "cutoffs": {
+        "pr_20": 190.96510244205297,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "hp_2020": 5098.0
+      }
+    },
+    {
+      "fields": [
+        "pr_20",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 80,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 1,
+      "cutoffs": {
+        "pr_20": 193.61258278145692,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "hp_2020": 5456.4
+      }
+    },
+    {
+      "fields": [
+        "pr_20",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 80,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 656,
+      "cutoffs": {
+        "pr_20": 193.61258278145692,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "hp_2020": 5456.4
+      }
+    },
+    {
+      "fields": [
+        "pr_20",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 80,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 215,
+      "cutoffs": {
+        "pr_20": 193.61258278145692,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "hp_2020": 5456.4
+      }
+    },
+    {
+      "fields": [
+        "pr_20",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 80,
+      "rule": "atleast",
+      "minimum": 3,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 30,
+      "cutoffs": {
+        "pr_20": 193.61258278145692,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "hp_2020": 5456.4
+      }
+    },
+    {
+      "fields": [
+        "pr_20",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 90,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 0,
+      "cutoffs": {
+        "pr_20": 196.10787458609272,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "hp_2020": 6762.0
+      }
+    },
+    {
+      "fields": [
+        "pr_20",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 90,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 377,
+      "cutoffs": {
+        "pr_20": 196.10787458609272,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "hp_2020": 6762.0
+      }
+    },
+    {
+      "fields": [
+        "pr_20",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 90,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 67,
+      "cutoffs": {
+        "pr_20": 196.10787458609272,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "hp_2020": 6762.0
+      }
+    },
+    {
+      "fields": [
+        "pr_20",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 90,
+      "rule": "atleast",
+      "minimum": 3,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 4,
+      "cutoffs": {
+        "pr_20": 196.10787458609272,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "hp_2020": 6762.0
+      }
+    },
+    {
+      "fields": [
+        "pr_20",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 75,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 4,
+      "cutoffs": {
+        "pr_20": 190.96510244205297,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "hp_2050": 5981.0
+      }
+    },
+    {
+      "fields": [
+        "pr_20",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 75,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 735,
+      "cutoffs": {
+        "pr_20": 190.96510244205297,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "hp_2050": 5981.0
+      }
+    },
+    {
+      "fields": [
+        "pr_20",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 75,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 312,
+      "cutoffs": {
+        "pr_20": 190.96510244205297,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "hp_2050": 5981.0
+      }
+    },
+    {
+      "fields": [
+        "pr_20",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 75,
+      "rule": "atleast",
+      "minimum": 3,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 67,
+      "cutoffs": {
+        "pr_20": 190.96510244205297,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "hp_2050": 5981.0
+      }
+    },
+    {
+      "fields": [
+        "pr_20",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 80,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 1,
+      "cutoffs": {
+        "pr_20": 193.61258278145692,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "hp_2050": 6577.6
+      }
+    },
+    {
+      "fields": [
+        "pr_20",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 80,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 636,
+      "cutoffs": {
+        "pr_20": 193.61258278145692,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "hp_2050": 6577.6
+      }
+    },
+    {
+      "fields": [
+        "pr_20",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 80,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 233,
+      "cutoffs": {
+        "pr_20": 193.61258278145692,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "hp_2050": 6577.6
+      }
+    },
+    {
+      "fields": [
+        "pr_20",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 80,
+      "rule": "atleast",
+      "minimum": 3,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 32,
+      "cutoffs": {
+        "pr_20": 193.61258278145692,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "hp_2050": 6577.6
+      }
+    },
+    {
+      "fields": [
+        "pr_20",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 90,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 0,
+      "cutoffs": {
+        "pr_20": 196.10787458609272,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "hp_2050": 8616.2
+      }
+    },
+    {
+      "fields": [
+        "pr_20",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 90,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 359,
+      "cutoffs": {
+        "pr_20": 196.10787458609272,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "hp_2050": 8616.2
+      }
+    },
+    {
+      "fields": [
+        "pr_20",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 90,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 85,
+      "cutoffs": {
+        "pr_20": 196.10787458609272,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "hp_2050": 8616.2
+      }
+    },
+    {
+      "fields": [
+        "pr_20",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 90,
+      "rule": "atleast",
+      "minimum": 3,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 4,
+      "cutoffs": {
+        "pr_20": 196.10787458609272,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "hp_2050": 8616.2
+      }
+    },
+    {
+      "fields": [
+        "pr_20",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 75,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 3,
+      "cutoffs": {
+        "pr_20": 190.96510244205297,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "pop_chg": 1267.0
+      }
+    },
+    {
+      "fields": [
+        "pr_20",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 75,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 721,
+      "cutoffs": {
+        "pr_20": 190.96510244205297,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "pop_chg": 1267.0
+      }
+    },
+    {
+      "fields": [
+        "pr_20",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 75,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 327,
+      "cutoffs": {
+        "pr_20": 190.96510244205297,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "pop_chg": 1267.0
+      }
+    },
+    {
+      "fields": [
+        "pr_20",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 75,
+      "rule": "atleast",
+      "minimum": 3,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 66,
+      "cutoffs": {
+        "pr_20": 190.96510244205297,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "pop_chg": 1267.0
+      }
+    },
+    {
+      "fields": [
+        "pr_20",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 80,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 0,
+      "cutoffs": {
+        "pr_20": 193.61258278145692,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "pop_chg": 1743.4
+      }
+    },
+    {
+      "fields": [
+        "pr_20",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 80,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 627,
+      "cutoffs": {
+        "pr_20": 193.61258278145692,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "pop_chg": 1743.4
+      }
+    },
+    {
+      "fields": [
+        "pr_20",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 80,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 246,
+      "cutoffs": {
+        "pr_20": 193.61258278145692,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "pop_chg": 1743.4
+      }
+    },
+    {
+      "fields": [
+        "pr_20",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 80,
+      "rule": "atleast",
+      "minimum": 3,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 29,
+      "cutoffs": {
+        "pr_20": 193.61258278145692,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "pop_chg": 1743.4
+      }
+    },
+    {
+      "fields": [
+        "pr_20",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 90,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 0,
+      "cutoffs": {
+        "pr_20": 196.10787458609272,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "pop_chg": 3369.0
+      }
+    },
+    {
+      "fields": [
+        "pr_20",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 90,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 362,
+      "cutoffs": {
+        "pr_20": 196.10787458609272,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "pop_chg": 3369.0
+      }
+    },
+    {
+      "fields": [
+        "pr_20",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 90,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 83,
+      "cutoffs": {
+        "pr_20": 196.10787458609272,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "pop_chg": 3369.0
+      }
+    },
+    {
+      "fields": [
+        "pr_20",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 90,
+      "rule": "atleast",
+      "minimum": 3,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 3,
+      "cutoffs": {
+        "pr_20": 196.10787458609272,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "pop_chg": 3369.0
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 75,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 5,
+      "cutoffs": {
+        "pr_25": 200.04476902173917,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "hp_2020": 5098.0
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 75,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 751,
+      "cutoffs": {
+        "pr_25": 200.04476902173917,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "hp_2020": 5098.0
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 75,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 302,
+      "cutoffs": {
+        "pr_25": 200.04476902173917,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "hp_2020": 5098.0
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 75,
+      "rule": "atleast",
+      "minimum": 3,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 60,
+      "cutoffs": {
+        "pr_25": 200.04476902173917,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "hp_2020": 5098.0
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 80,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 1,
+      "cutoffs": {
+        "pr_25": 203.60268342391305,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "hp_2020": 5456.4
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 80,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 652,
+      "cutoffs": {
+        "pr_25": 203.60268342391305,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "hp_2020": 5456.4
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 80,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 211,
+      "cutoffs": {
+        "pr_25": 203.60268342391305,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "hp_2020": 5456.4
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 80,
+      "rule": "atleast",
+      "minimum": 3,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 30,
+      "cutoffs": {
+        "pr_25": 203.60268342391305,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "hp_2020": 5456.4
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 90,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 0,
+      "cutoffs": {
+        "pr_25": 206.35876358695648,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "hp_2020": 6762.0
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 90,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 377,
+      "cutoffs": {
+        "pr_25": 206.35876358695648,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "hp_2020": 6762.0
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 90,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 69,
+      "cutoffs": {
+        "pr_25": 206.35876358695648,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "hp_2020": 6762.0
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 90,
+      "rule": "atleast",
+      "minimum": 3,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 3,
+      "cutoffs": {
+        "pr_25": 206.35876358695648,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "hp_2020": 6762.0
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 75,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 4,
+      "cutoffs": {
+        "pr_25": 200.04476902173917,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "hp_2050": 5981.0
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 75,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 734,
+      "cutoffs": {
+        "pr_25": 200.04476902173917,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "hp_2050": 5981.0
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 75,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 313,
+      "cutoffs": {
+        "pr_25": 200.04476902173917,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "hp_2050": 5981.0
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 75,
+      "rule": "atleast",
+      "minimum": 3,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 68,
+      "cutoffs": {
+        "pr_25": 200.04476902173917,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "hp_2050": 5981.0
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 80,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 1,
+      "cutoffs": {
+        "pr_25": 203.60268342391305,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "hp_2050": 6577.6
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 80,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 631,
+      "cutoffs": {
+        "pr_25": 203.60268342391305,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "hp_2050": 6577.6
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 80,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 231,
+      "cutoffs": {
+        "pr_25": 203.60268342391305,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "hp_2050": 6577.6
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 80,
+      "rule": "atleast",
+      "minimum": 3,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 31,
+      "cutoffs": {
+        "pr_25": 203.60268342391305,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "hp_2050": 6577.6
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 90,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 0,
+      "cutoffs": {
+        "pr_25": 206.35876358695648,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "hp_2050": 8616.2
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 90,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 360,
+      "cutoffs": {
+        "pr_25": 206.35876358695648,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "hp_2050": 8616.2
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 90,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 85,
+      "cutoffs": {
+        "pr_25": 206.35876358695648,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "hp_2050": 8616.2
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 90,
+      "rule": "atleast",
+      "minimum": 3,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 4,
+      "cutoffs": {
+        "pr_25": 206.35876358695648,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "hp_2050": 8616.2
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 75,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 3,
+      "cutoffs": {
+        "pr_25": 200.04476902173917,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "pop_chg": 1267.0
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 75,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 720,
+      "cutoffs": {
+        "pr_25": 200.04476902173917,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "pop_chg": 1267.0
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 75,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 328,
+      "cutoffs": {
+        "pr_25": 200.04476902173917,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "pop_chg": 1267.0
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 75,
+      "rule": "atleast",
+      "minimum": 3,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 67,
+      "cutoffs": {
+        "pr_25": 200.04476902173917,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "pop_chg": 1267.0
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 80,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 0,
+      "cutoffs": {
+        "pr_25": 203.60268342391305,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "pop_chg": 1743.4
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 80,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 622,
+      "cutoffs": {
+        "pr_25": 203.60268342391305,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "pop_chg": 1743.4
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 80,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 244,
+      "cutoffs": {
+        "pr_25": 203.60268342391305,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "pop_chg": 1743.4
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 80,
+      "rule": "atleast",
+      "minimum": 3,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 28,
+      "cutoffs": {
+        "pr_25": 203.60268342391305,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "pop_chg": 1743.4
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 90,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 0,
+      "cutoffs": {
+        "pr_25": 206.35876358695648,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "pop_chg": 3369.0
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 90,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 362,
+      "cutoffs": {
+        "pr_25": 206.35876358695648,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "pop_chg": 3369.0
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 90,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 84,
+      "cutoffs": {
+        "pr_25": 206.35876358695648,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "pop_chg": 3369.0
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 90,
+      "rule": "atleast",
+      "minimum": 3,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 3,
+      "cutoffs": {
+        "pr_25": 206.35876358695648,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "pop_chg": 3369.0
+      }
+    },
+    {
+      "fields": [
+        "pr_30",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 75,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 5,
+      "cutoffs": {
+        "pr_30": 190.118896484375,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "hp_2020": 5098.0
+      }
+    },
+    {
+      "fields": [
+        "pr_30",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 75,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 750,
+      "cutoffs": {
+        "pr_30": 190.118896484375,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "hp_2020": 5098.0
+      }
+    },
+    {
+      "fields": [
+        "pr_30",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 75,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 302,
+      "cutoffs": {
+        "pr_30": 190.118896484375,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "hp_2020": 5098.0
+      }
+    },
+    {
+      "fields": [
+        "pr_30",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 75,
+      "rule": "atleast",
+      "minimum": 3,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 59,
+      "cutoffs": {
+        "pr_30": 190.118896484375,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "hp_2020": 5098.0
+      }
+    },
+    {
+      "fields": [
+        "pr_30",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 80,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 1,
+      "cutoffs": {
+        "pr_30": 192.67643229166663,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "hp_2020": 5456.4
+      }
+    },
+    {
+      "fields": [
+        "pr_30",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 80,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 653,
+      "cutoffs": {
+        "pr_30": 192.67643229166663,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "hp_2020": 5456.4
+      }
+    },
+    {
+      "fields": [
+        "pr_30",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 80,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 213,
+      "cutoffs": {
+        "pr_30": 192.67643229166663,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "hp_2020": 5456.4
+      }
+    },
+    {
+      "fields": [
+        "pr_30",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 80,
+      "rule": "atleast",
+      "minimum": 3,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 30,
+      "cutoffs": {
+        "pr_30": 192.67643229166663,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "hp_2020": 5456.4
+      }
+    },
+    {
+      "fields": [
+        "pr_30",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 90,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 0,
+      "cutoffs": {
+        "pr_30": 195.19494628906253,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "hp_2020": 6762.0
+      }
+    },
+    {
+      "fields": [
+        "pr_30",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 90,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 376,
+      "cutoffs": {
+        "pr_30": 195.19494628906253,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "hp_2020": 6762.0
+      }
+    },
+    {
+      "fields": [
+        "pr_30",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 90,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 68,
+      "cutoffs": {
+        "pr_30": 195.19494628906253,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "hp_2020": 6762.0
+      }
+    },
+    {
+      "fields": [
+        "pr_30",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2020"
+      ],
+      "percentile": 90,
+      "rule": "atleast",
+      "minimum": 3,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 4,
+      "cutoffs": {
+        "pr_30": 195.19494628906253,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "hp_2020": 6762.0
+      }
+    },
+    {
+      "fields": [
+        "pr_30",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 75,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 4,
+      "cutoffs": {
+        "pr_30": 190.118896484375,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "hp_2050": 5981.0
+      }
+    },
+    {
+      "fields": [
+        "pr_30",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 75,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 735,
+      "cutoffs": {
+        "pr_30": 190.118896484375,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "hp_2050": 5981.0
+      }
+    },
+    {
+      "fields": [
+        "pr_30",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 75,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 311,
+      "cutoffs": {
+        "pr_30": 190.118896484375,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "hp_2050": 5981.0
+      }
+    },
+    {
+      "fields": [
+        "pr_30",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 75,
+      "rule": "atleast",
+      "minimum": 3,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 67,
+      "cutoffs": {
+        "pr_30": 190.118896484375,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "hp_2050": 5981.0
+      }
+    },
+    {
+      "fields": [
+        "pr_30",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 80,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 1,
+      "cutoffs": {
+        "pr_30": 192.67643229166663,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "hp_2050": 6577.6
+      }
+    },
+    {
+      "fields": [
+        "pr_30",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 80,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 632,
+      "cutoffs": {
+        "pr_30": 192.67643229166663,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "hp_2050": 6577.6
+      }
+    },
+    {
+      "fields": [
+        "pr_30",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 80,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 232,
+      "cutoffs": {
+        "pr_30": 192.67643229166663,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "hp_2050": 6577.6
+      }
+    },
+    {
+      "fields": [
+        "pr_30",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 80,
+      "rule": "atleast",
+      "minimum": 3,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 32,
+      "cutoffs": {
+        "pr_30": 192.67643229166663,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "hp_2050": 6577.6
+      }
+    },
+    {
+      "fields": [
+        "pr_30",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 90,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 0,
+      "cutoffs": {
+        "pr_30": 195.19494628906253,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "hp_2050": 8616.2
+      }
+    },
+    {
+      "fields": [
+        "pr_30",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 90,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 358,
+      "cutoffs": {
+        "pr_30": 195.19494628906253,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "hp_2050": 8616.2
+      }
+    },
+    {
+      "fields": [
+        "pr_30",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 90,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 86,
+      "cutoffs": {
+        "pr_30": 195.19494628906253,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "hp_2050": 8616.2
+      }
+    },
+    {
+      "fields": [
+        "pr_30",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050"
+      ],
+      "percentile": 90,
+      "rule": "atleast",
+      "minimum": 3,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 4,
+      "cutoffs": {
+        "pr_30": 195.19494628906253,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "hp_2050": 8616.2
+      }
+    },
+    {
+      "fields": [
+        "pr_30",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 75,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 3,
+      "cutoffs": {
+        "pr_30": 190.118896484375,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "pop_chg": 1267.0
+      }
+    },
+    {
+      "fields": [
+        "pr_30",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 75,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 719,
+      "cutoffs": {
+        "pr_30": 190.118896484375,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "pop_chg": 1267.0
+      }
+    },
+    {
+      "fields": [
+        "pr_30",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 75,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 327,
+      "cutoffs": {
+        "pr_30": 190.118896484375,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "pop_chg": 1267.0
+      }
+    },
+    {
+      "fields": [
+        "pr_30",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 75,
+      "rule": "atleast",
+      "minimum": 3,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 67,
+      "cutoffs": {
+        "pr_30": 190.118896484375,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "pop_chg": 1267.0
+      }
+    },
+    {
+      "fields": [
+        "pr_30",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 80,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 0,
+      "cutoffs": {
+        "pr_30": 192.67643229166663,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "pop_chg": 1743.4
+      }
+    },
+    {
+      "fields": [
+        "pr_30",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 80,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 623,
+      "cutoffs": {
+        "pr_30": 192.67643229166663,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "pop_chg": 1743.4
+      }
+    },
+    {
+      "fields": [
+        "pr_30",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 80,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 245,
+      "cutoffs": {
+        "pr_30": 192.67643229166663,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "pop_chg": 1743.4
+      }
+    },
+    {
+      "fields": [
+        "pr_30",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 80,
+      "rule": "atleast",
+      "minimum": 3,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 29,
+      "cutoffs": {
+        "pr_30": 192.67643229166663,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "pop_chg": 1743.4
+      }
+    },
+    {
+      "fields": [
+        "pr_30",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 90,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 0,
+      "cutoffs": {
+        "pr_30": 195.19494628906253,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "pop_chg": 3369.0
+      }
+    },
+    {
+      "fields": [
+        "pr_30",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 90,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 360,
+      "cutoffs": {
+        "pr_30": 195.19494628906253,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "pop_chg": 3369.0
+      }
+    },
+    {
+      "fields": [
+        "pr_30",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 90,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 85,
+      "cutoffs": {
+        "pr_30": 195.19494628906253,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "pop_chg": 3369.0
+      }
+    },
+    {
+      "fields": [
+        "pr_30",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 90,
+      "rule": "atleast",
+      "minimum": 3,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 3,
+      "cutoffs": {
+        "pr_30": 195.19494628906253,
+        "SVI": 0.94208,
+        "parcel_hu_change": 561.2000000000004,
+        "pop_chg": 3369.0
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 80,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 23,
+      "eligible_count": 23,
+      "matched_count": 0,
+      "cutoffs": {
+        "pr_25": 203.60268342391305,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "pop_chg": 1743.4
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 80,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 23,
+      "eligible_count": 23,
+      "matched_count": 13,
+      "cutoffs": {
+        "pr_25": 203.60268342391305,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "pop_chg": 1743.4
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 80,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 23,
+      "eligible_count": 23,
+      "matched_count": 8,
+      "cutoffs": {
+        "pr_25": 203.60268342391305,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "pop_chg": 1743.4
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 80,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 434,
+      "eligible_count": 434,
+      "matched_count": 0,
+      "cutoffs": {
+        "pr_25": 203.60268342391305,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "pop_chg": 1743.4
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 80,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 434,
+      "eligible_count": 434,
+      "matched_count": 268,
+      "cutoffs": {
+        "pr_25": 203.60268342391305,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "pop_chg": 1743.4
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 80,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 434,
+      "eligible_count": 434,
+      "matched_count": 107,
+      "cutoffs": {
+        "pr_25": 203.60268342391305,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "pop_chg": 1743.4
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 80,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 346,
+      "eligible_count": 346,
+      "matched_count": 0,
+      "cutoffs": {
+        "pr_25": 203.60268342391305,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "pop_chg": 1743.4
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 80,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 346,
+      "eligible_count": 346,
+      "matched_count": 153,
+      "cutoffs": {
+        "pr_25": 203.60268342391305,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "pop_chg": 1743.4
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 80,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 346,
+      "eligible_count": 346,
+      "matched_count": 76,
+      "cutoffs": {
+        "pr_25": 203.60268342391305,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "pop_chg": 1743.4
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 80,
+      "rule": "all",
+      "minimum": 4,
+      "scope_count": 1,
+      "eligible_count": 1,
+      "matched_count": 0,
+      "cutoffs": {
+        "pr_25": 203.60268342391305,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "pop_chg": 1743.4
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 80,
+      "rule": "any",
+      "minimum": 1,
+      "scope_count": 1,
+      "eligible_count": 1,
+      "matched_count": 1,
+      "cutoffs": {
+        "pr_25": 203.60268342391305,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "pop_chg": 1743.4
+      }
+    },
+    {
+      "fields": [
+        "pr_25",
+        "SVI",
+        "parcel_hu_change",
+        "pop_chg"
+      ],
+      "percentile": 80,
+      "rule": "atleast",
+      "minimum": 2,
+      "scope_count": 1,
+      "eligible_count": 1,
+      "matched_count": 0,
+      "cutoffs": {
+        "pr_25": 203.60268342391305,
+        "SVI": 0.8818400000000001,
+        "parcel_hu_change": 191.4000000000001,
+        "pop_chg": 1743.4
+      }
+    },
+    {
+      "fields": [
+        "sens_pct",
+        "SVI",
+        "hh_chg"
+      ],
+      "percentile": 80,
+      "rule": "all",
+      "minimum": 3,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 5,
+      "cutoffs": {
+        "sens_pct": 6.448336906073977,
+        "SVI": 0.8818400000000001,
+        "hh_chg": 746.0
+      }
+    },
+    {
+      "fields": [
+        "pr_30",
+        "SVI",
+        "parcel_hu_change",
+        "hp_2050",
+        "hh_2020",
+        "job_chg"
+      ],
+      "percentile": 75,
+      "rule": "atleast",
+      "minimum": 3,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 238,
+      "cutoffs": {
+        "pr_30": 190.118896484375,
+        "SVI": 0.839,
+        "parcel_hu_change": 104.5,
+        "hp_2050": 5981.0,
+        "hh_2020": 1819.5,
+        "job_chg": 529.0
+      }
+    },
+    {
+      "fields": [
+        "SVI"
+      ],
+      "percentile": 90,
+      "rule": "all",
+      "minimum": 1,
+      "scope_count": 1115,
+      "eligible_count": 1115,
+      "matched_count": 112,
+      "cutoffs": {
+        "SVI": 0.94208
+      }
+    },
+    {
+      "fields": [
+        "pr_15",
+        "SVI"
+      ],
+      "percentile": 80,
+      "rule": "all",
+      "minimum": 2,
+      "scope_count": 0,
+      "eligible_count": 0,
+      "matched_count": 0,
+      "cutoffs": {
+        "pr_15": 191.18382906626505,
+        "SVI": 0.8818400000000001
+      }
+    }
+  ]
+}

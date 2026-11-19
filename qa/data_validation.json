@@ -1,0 +1,36 @@
+{
+  "tracts": 1115,
+  "zip_codes": 155,
+  "commissioner_precincts": 4,
+  "gdb_layers": 32,
+  "single_family_points": 1093063,
+  "multi_family_points": 11572,
+  "hotspot_combination_counts": {
+    "Hazard only": 146,
+    "Growth only": 163,
+    "None high": 562,
+    "SVI only": 131,
+    "Growth + SVI": 34,
+    "Hazard + SVI": 52,
+    "Hazard + growth": 22,
+    "All three high": 5
+  },
+  "all_three_high_tracts": 5,
+  "zip_intersecting_tract_range": [
+    1,
+    37
+  ],
+  "precinct_intersecting_tract_counts": [
+    352,
+    434,
+    318,
+    346
+  ],
+  "index_html_mb": 16.0,
+  "legacy_html_identical": true,
+  "guided_workflow_release": true,
+  "release": "Expanded indicators 3.1",
+  "expanded_indicator_sidecar_present": true,
+  "source_files_unchanged": 26,
+  "polygon_membership_independently_reproduced": true
+}

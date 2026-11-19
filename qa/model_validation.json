@@ -1,0 +1,219 @@
+{
+  "passed": true,
+  "release": "Expanded indicators 3.1",
+  "embedding": "bokeh.embed.components inline docs_json string",
+  "bokeh_version": "3.8.2",
+  "model_count": 317,
+  "root_count": 1,
+  "validation_errors": [],
+  "validation_warnings": [],
+  "required_bridge_models": {
+    "tract_source": {
+      "name": "tract_source",
+      "class": "ColumnDataSource"
+    },
+    "tract_renderer": {
+      "name": "tracts",
+      "class": "GlyphRenderer"
+    },
+    "parcel_source": {
+      "name": "parcel_source",
+      "class": "ColumnDataSource"
+    },
+    "grid_source": {
+      "name": "housing_grid_source",
+      "class": "ColumnDataSource"
+    },
+    "climate_source": {
+      "name": "climate_master_source",
+      "class": "ColumnDataSource"
+    },
+    "climate_display_source": {
+      "name": "climate_display_source",
+      "class": "ColumnDataSource"
+    },
+    "county_source": {
+      "name": "county_source",
+      "class": "ColumnDataSource"
+    },
+    "zipcode_source": {
+      "name": "zipcode_source",
+      "class": "ColumnDataSource"
+    },
+    "precinct_source": {
+      "name": "precinct_source",
+      "class": "ColumnDataSource"
+    },
+    "map_plot": {
+      "name": "guided_map",
+      "class": "figure"
+    },
+    "layer_select": {
+      "name": "primary_layer_select",
+      "class": "Select"
+    },
+    "gmt_select": {
+      "name": "gmt_threshold_select",
+      "class": "Select"
+    },
+    "housing_select": {
+      "name": "engine_housing_select",
+      "class": "Select"
+    },
+    "opacity_slider": {
+      "name": "engine_opacity_slider",
+      "class": "Slider"
+    },
+    "overlap_toggle": {
+      "name": "engine_overlap_toggle",
+      "class": "Toggle"
+    },
+    "overlap_a": {
+      "name": "engine_overlap_a",
+      "class": "Select"
+    },
+    "overlap_b": {
+      "name": "engine_overlap_b",
+      "class": "Select"
+    },
+    "threshold_slider": {
+      "name": "engine_threshold_slider",
+      "class": "Slider"
+    },
+    "legend_div": {
+      "name": "engine_legend_div",
+      "class": "Div"
+    },
+    "legend_filter_status": {
+      "name": "legend_filter_status",
+      "class": "Div"
+    },
+    "all_zip_renderer": {
+      "name": "all_zip_boundaries",
+      "class": "GlyphRenderer"
+    },
+    "all_precinct_renderer": {
+      "name": "all_commissioner_precinct_boundaries",
+      "class": "GlyphRenderer"
+    },
+    "update_callback": {
+      "name": "engine_update_callback",
+      "class": "CustomJS"
+    },
+    "basemap_renderer": {
+      "name": "optional_osm_basemap",
+      "class": "TileRenderer"
+    }
+  },
+  "native_guided_models": {
+    "guided_scope_mask": "ColumnDataSource",
+    "guided_scope_boundary": "ColumnDataSource",
+    "guided_inspected_tract": "ColumnDataSource",
+    "guided_screen_matches": "ColumnDataSource",
+    "guided_screen_matches_renderer": "GlyphRenderer",
+    "guided_scope_boundary_renderer": "GlyphRenderer",
+    "guided_scope_mask_renderer": "GlyphRenderer",
+    "guided_bridge": "ColumnDataSource"
+  },
+  "tract_source_fields_checked": [
+    "GEOID",
+    "xs",
+    "ys",
+    "fill_color",
+    "display_value",
+    "display_label",
+    "pr_15",
+    "pr_20",
+    "pr_25",
+    "pr_30",
+    "sens_pct",
+    "SVI",
+    "parcel_hu_change",
+    "hp_2020",
+    "hp_2050",
+    "pop_chg",
+    "hh_2020",
+    "hh_2050",
+    "hh_chg",
+    "j_2020",
+    "j_2050",
+    "job_chg",
+    "CHEI_2020",
+    "CHEI_2050",
+    "adapt_gap",
+    "hotspot_combo",
+    "pop_den",
+    "n_single_f",
+    "n_multi_fa"
+  ],
+  "expanded_source_fields_checked": [
+    "grid_intersect_count",
+    "grid_mf_median",
+    "grid_mf_median_n",
+    "grid_sf_median",
+    "grid_sf_median_n",
+    "grid_total_median",
+    "grid_total_median_n",
+    "housing_total_records",
+    "parcel_count",
+    "parcel_current_lu_mode",
+    "parcel_current_lu_mode_tied",
+    "parcel_future_lu_mode",
+    "parcel_future_lu_mode_tied",
+    "point_pr_15",
+    "point_pr_15_n",
+    "point_pr_20",
+    "point_pr_20_n",
+    "point_pr_25",
+    "point_pr_25_n",
+    "point_pr_30",
+    "point_pr_30_n"
+  ],
+  "expanded_source_values_compared": 23415,
+  "expanded_metadata_matches_source_file": true,
+  "indicator_families": 17,
+  "source_layers_represented": 26,
+  "categorical_values_and_missing_coverage_preserved": true,
+  "original_numeric_source_fields_checked": [
+    "pr_15",
+    "pr_20",
+    "pr_25",
+    "pr_30",
+    "sens_pct",
+    "SVI",
+    "parcel_hu_change",
+    "hp_2020",
+    "hp_2050",
+    "pop_chg",
+    "hh_2020",
+    "hh_2050",
+    "hh_chg",
+    "j_2020",
+    "j_2050",
+    "job_chg",
+    "CHEI_2020",
+    "CHEI_2050",
+    "adapt_gap",
+    "pop_den",
+    "n_single_f",
+    "n_multi_fa"
+  ],
+  "original_source_values_compared": 24530,
+  "original_source_values_preserved": true,
+  "tract_count": 1115,
+  "screen_outline_linked_to_map": true,
+  "legend_context_export_present": true,
+  "guided_html_copies_identical": true,
+  "basemap": {
+    "tile_renderers_attached_by_default": 0,
+    "detached_optional_renderers": 1,
+    "optional_renderer_name": "optional_osm_basemap",
+    "optional_source": "https://tile.openstreetmap.org/{Z}/{X}/{Y}.png",
+    "optional_source_attributed": true,
+    "reachable_through_native_bridge_tags": true,
+    "embedded_county_boundary_visible": true,
+    "no_api_key_configuration_required": true
+  },
+  "index_sha256": "6041b94dc53920ce2afb83abed5860198ba714adf37621f245145aa33203e70b",
+  "scope": "Real Bokeh document deserialization, model integrity, original and expanded source values, metadata, optional basemap, and native bridge references; not browser execution, live tile availability, or graphical rendering."
+}

@@ -1,0 +1,34 @@
+{
+  "release": "Expanded indicators 3.1",
+  "passed": true,
+  "python_files": [
+    "basemap.py",
+    "build_advanced_dashboard.py",
+    "build_dashboard.py",
+    "expanded_indicators.py",
+    "guided_builder.py",
+    "preprocess_data.py",
+    "scripts/browser_smoke_test.py",
+    "scripts/create_advanced_reproduction_guide.py",
+    "scripts/server_smoke_test.py",
+    "scripts/validate_basemap.py",
+    "scripts/validate_dashboard.py",
+    "scripts/validate_expanded_indicators.py",
+    "scripts/validate_expanded_overlap.py",
+    "scripts/validate_flexible_workflow.py",
+    "scripts/validate_model_bridge.py",
+    "scripts/validate_overlap.py",
+    "server.py"
+  ],
+  "javascript_files": [
+    "scripts/validate_combined_view.js",
+    "scripts/validate_workflow_dom.cjs",
+    "web/combined_view.js",
+    "web/factor_catalog.js",
+    "web/guided.js",
+    "web/overlap.js"
+  ],
+  "composed_guided_javascript_checked": true,
+  "final_html_contains_exact_current_javascript_css": true,
+  "scope": "Syntax and inline-source agreement only, not graphical rendering or live tile testing."
+}

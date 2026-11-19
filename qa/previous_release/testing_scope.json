@@ -1,0 +1,8 @@
+{
+  "browser_engine": "Chromium / Playwright",
+  "browser_input": "Self-contained HTML loaded into a browser page with external HTTPS requests blocked",
+  "tested_workflow_paths": 20,
+  "public_site_deployed": false,
+  "direct_browser_file_or_localhost_navigation": "Not exercised successfully: managed browser environment returned ERR_BLOCKED_BY_ADMINISTRATOR. This is not counted as a passing navigation test.",
+  "optional_server": "FastAPI TestClient endpoint tests passed; no public server was deployed."
+}
