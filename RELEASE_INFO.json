@@ -1,0 +1,34 @@
+{
+  "release": "Expanded indicators 3.1",
+  "source_archive": "Climate_Housing_Exposure_Index_Dashboard_Flexible_Indicators_GitHub_Pages.zip",
+  "source_sha256": "49838768cc85fc92008220c4a939be8b2ef9b6c033ecab0823e63073c636c014",
+  "original_source_archive": "Climate_Housing_Exposure_Index_Dashboard_Guided_Workflow_Final.zip",
+  "original_source_sha256": "197a06a0cf5c8daef90ced9114120c830aca40c004ae9b3bcaa57dc29ff8f669",
+  "guided_html_sha256": "6041b94dc53920ce2afb83abed5860198ba714adf37621f245145aa33203e70b",
+  "original_analytical_files_preserved": 26,
+  "indicator_families": 17,
+  "original_layer_keys_represented": 26,
+  "derived_and_support_columns": 21,
+  "default_basemap": "Embedded boundaries; no tile renderer attached and no tile-service/API-key dependency.",
+  "optional_basemap": "Explicit OpenStreetMap streets on HTTP/HTTPS only; requires internet and is disabled in local-file contexts.",
+  "new_calculation": "Tract overlap of numeric thresholds and named category choices; source-specific geographic summaries; no recalculated CHEI or new climate projections.",
+  "workflow": [
+    "Location",
+    "Precipitation",
+    "Indicators",
+    "Periods & rules",
+    "Results"
+  ],
+  "qa_records": [
+    "qa/data_validation.json",
+    "qa/expanded_data_validation.json",
+    "qa/overlap_validation.json",
+    "qa/expanded_overlap_validation.json",
+    "qa/combined_view_validation.json",
+    "qa/dom_workflow/validation.json",
+    "qa/model_validation.json",
+    "qa/basemap_validation.json",
+    "qa/syntax_validation.json"
+  ],
+  "graphical_validation": "Not completed in this environment; see qa/README.md. DOM/state checks and actual serialized-model checks are not graphical browser checks."
+}
